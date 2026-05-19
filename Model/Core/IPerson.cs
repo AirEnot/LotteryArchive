@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Model.Core
 {
-    internal interface IPerson
+    public interface IPerson
     {
+        string FullName { get; set; }
     }
 }

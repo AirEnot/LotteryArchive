@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace Model.Core
 {
-    public partial class LotteryParticipant
+    public partial class LotteryParticipant : Person
     {
+        public List<Ticket> Tickets { get; set; }
 
+        public LotteryParticipant(string fullName) : base(fullName)
+        {
+            Tickets = new List<Ticket>();
+        }
     }
 }

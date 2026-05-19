@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace Model.Core
 {
-    internal class Person
+    public class Person : IPerson
     {
+        public string FullName { get; set; }
+        public Person(string fullName)
+        {
+            FullName = fullName;
+        }
+
+        public override string ToString() => FullName;
     }
 }
