@@ -8,11 +8,17 @@ namespace Model.Core
 {
     public partial class LotteryParticipant : Person
     {
+
         public List<Ticket> Tickets { get; set; }
 
         public LotteryParticipant(string fullName) : base(fullName)
         {
             Tickets = new List<Ticket>();
+        }
+
+        public void Print()
+        {
+            Console.WriteLine($"У участника {FullName}: Balance {Balance}, Greed {Greed}");
         }
     }
 }
