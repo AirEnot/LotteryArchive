@@ -13,12 +13,7 @@ namespace Model.Core
         {
             FullName = fullName;
         }
-        public List<ITicket> Tickets { get; set; } = new List<ITicket>();
-
-        public void AddWinTcket(WinningTicket ticket)
-        {
-            Tickets.Add(ticket);
-        }
+        
         public override string ToString() => FullName;
     }
 }
