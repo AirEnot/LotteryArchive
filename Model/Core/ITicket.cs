@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Model.Core
 {
-    internal interface ITicket
+    public interface ITicket
     {
+        int Id { get; }
+        int participantId { get; }
+        bool isSold { get; }
+
+        string Print();
     }
 }

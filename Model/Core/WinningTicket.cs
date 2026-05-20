@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Model.Core
 {
-    internal class WinningTicket
+    public class WinningTicket : Ticket
     {
+        public int PrizeAmount { get; private set; }
+        public WinningTicket(int id, int participantId, bool isSold, int price, int prizeAmount) : base(id, participantId, isSold, price)
+        {
+            PrizeAmount = prizeAmount;
+        }
     }
 }
