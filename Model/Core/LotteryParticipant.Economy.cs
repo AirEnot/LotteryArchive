@@ -21,15 +21,15 @@ namespace Model.Core
         {
             int safeGreed = Math.Clamp(Greed, 0, 100);
             long moneyAvailableToSpend = Balance * 100 / safeGreed;
-            int ticketsToBuy = moneyAvailableToSpend / lottery.TicketPrice;
+            int ticketsToBuy = (int)moneyAvailableToSpend / lottery.TicketsPrice;
             for (int i = 0; i < ticketsToBuy; i++)
             {
-                if (Balance >= lottery.TicketPrice)
+                if (Balance >= lottery.TicketsPrice)
                 {
                     bool isSold = lottery.SellTicket(this);
 
                     if (!isSold) break;
-                    Balance -= lottery.TicketPrice;
+                    Balance -= lottery.TicketsPrice;
                 }
                 else
                 {
@@ -37,7 +37,5 @@ namespace Model.Core
                 }
             }
         }
-
-        
     }
 }
