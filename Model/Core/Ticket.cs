@@ -9,23 +9,23 @@ namespace Model.Core
     public partial class Ticket : ITicket
     {
         public int Id { get ; private set; }
-        public int participantId { get; private set; }
+        public string participantId { get; private set; }
         public bool isSold { get ; private set; }
 
-        public Ticket(int id, int participantId, bool isSold)
+        public Ticket(int id, string participantId, bool isSold)
         {
             Id = id;
             this.participantId = participantId;
             this.isSold = isSold;
         }
 
-        public void SellToParticipant(int participantId)
+        public void SellToParticipant(LotteryParticipant participant)
         {
             if (isSold)
             {
                 throw new InvalidOperationException("Ticket is already sold.");
             }
-            this.participantId = participantId;
+            this.participantId = participant.Id;
             isSold = true;
         }
         public string Print()

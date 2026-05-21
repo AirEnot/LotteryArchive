@@ -22,6 +22,7 @@ namespace Model.Core
             int safeGreed = Math.Clamp(Greed, 0, 100);
             long moneyAvailableToSpend = Balance * 100 / safeGreed;
             int ticketsToBuy = (int)moneyAvailableToSpend / lottery.TicketsPrice;
+
             for (int i = 0; i < ticketsToBuy; i++)
             {
                 if (Balance >= lottery.TicketsPrice)

@@ -9,7 +9,7 @@ namespace Model.Core
     public interface ITicket
     {
         int Id { get; }
-        int participantId { get; }
+        string participantId { get; }
         bool isSold { get; }
 
         string Print();
