@@ -9,13 +9,12 @@ namespace Model.Core
     public partial class Ticket : ITicket
     {
         public int Id { get ; private set; }
-        public string participantId { get; private set; }
+        public string ParticipantId { get; protected set; }
         public bool isSold { get ; private set; }
 
-        public Ticket(int id, string participantId, bool isSold)
+        public Ticket(int id, bool isSold)
         {
             Id = id;
-            this.participantId = participantId;
             this.isSold = isSold;
         }
 
@@ -25,12 +24,17 @@ namespace Model.Core
             {
                 throw new InvalidOperationException("Ticket is already sold.");
             }
-            this.participantId = participant.Id;
+            this.ParticipantId = participant.Id;
             isSold = true;
+        }
+
+        public void AddOwner(string participantID)
+        {
+            ParticipantId = participantID;
         }
         public string Print()
         {
-            return $"Ticket ID: {Id}, Participant ID: {participantId}, Sold: {isSold}";
+            return $"Ticket ID: {Id}, Participant ID: {ParticipantId}, Sold: {isSold}";
         }
     }
 }
