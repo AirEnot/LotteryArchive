@@ -10,7 +10,7 @@ namespace Model.Core
     {
         public int Price { get; private set; }
 
-        public Ticket(int id, string participantId, bool isSold, int price) : this(id, participantId, isSold)
+        public Ticket(int id, bool isSold, int price) : this(id, isSold)
         {
             Price = price;
         }

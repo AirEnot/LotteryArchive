@@ -8,8 +8,8 @@ namespace Model.Core
 {
     public class WinningTicket : Ticket
     {
-        public int PrizeAmount { get; private set; }
-        public WinningTicket(int id, int participantId, bool isSold, int price, int prizeAmount) : base(id, participantId, isSold, price)
+        public long PrizeAmount { get; private set; }
+        public WinningTicket(int id, bool isSold, int price, long prizeAmount) : base(id, isSold, price)
         {
             PrizeAmount = prizeAmount;
         }

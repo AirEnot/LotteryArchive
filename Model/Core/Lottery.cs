@@ -36,7 +36,7 @@ namespace Model.Core
             _ticketsID = 0;
             TicketsCount = ticketsCount;
             PrizePool = prizePool;
-            CreateTickets();   
+            CreateTickets();
         }
 
         private void CreateTickets()
