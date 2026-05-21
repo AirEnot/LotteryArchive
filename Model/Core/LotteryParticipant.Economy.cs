@@ -11,10 +11,9 @@ namespace Model.Core
         public long Balance { get; private set; }
         public int Greed { get; private set; }
 
-        public LotteryParticipant(string fullName, int balance, int greed) : this(fullName)
+        public LotteryParticipant(string fullName, int balance) : this(fullName)
         {
             Balance = balance;
-            Greed = greed;
         }
 
         public void BuyTicket(Lottery lottery)
