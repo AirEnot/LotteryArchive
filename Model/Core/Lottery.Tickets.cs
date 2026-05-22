@@ -9,7 +9,7 @@ namespace Model.Core
 {
     public partial class Lottery
     {
-        private int _lastTicketId;
+        private int _lastTicketId = -1;
 
         public bool SellTicket(LotteryParticipant participant)
         {

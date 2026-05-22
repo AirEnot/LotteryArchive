@@ -10,10 +10,14 @@ namespace Model.Core
     {
         public long Balance { get; private set; }
         public int Greed { get; private set; }
+        public long TotalSpent { get; private set; }
+        public long TotalWon { get; private set; }
 
         public LotteryParticipant(string fullName, int balance) : this(fullName)
         {
             Balance = balance;
+            TotalSpent = 0;
+            TotalWon = 0;
         }
 
         public void BuyTicket(Lottery lottery)
@@ -41,9 +45,22 @@ namespace Model.Core
             Tickets.Add(ticket);
         }
 
-        public void GetPrize(long amount)
+        public void GetPrize(Ticket ticket)
         {
-            Balance += amount;
+            if (ticket is WinningTicket winningTicket)
+            {
+                long prize = winningTicket.PrizeAmount;
+                Balance += prize;
+                TotalWon += prize;
+            }
+        }
+
+        public void ReturnMoney(Ticket ticket)
+        {
+            int TicketPrice = ticket.Price;
+            int moneyToReturn = TicketPrice * 90 / 100;
+            Balance += moneyToReturn;
+            TotalSpent -= TicketPrice;
         }
 
         public void ChangeGreed(int greed)
