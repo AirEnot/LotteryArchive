@@ -19,8 +19,8 @@ namespace Model.Core
             }
 
             _lastTicketId++;
-            LotteryTickets[_lastTicketId].SellToParticipant(participant);
-            participant.GetTicket(LotteryTickets[_lastTicketId]);
+            _lotteryTickets[_lastTicketId].SellToParticipant(participant);
+            participant.GetTicket(_lotteryTickets[_lastTicketId]);
 
             return true;
         }

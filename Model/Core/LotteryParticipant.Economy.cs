@@ -43,7 +43,7 @@ namespace Model.Core
 
         public void GetTicket(Ticket ticket)
         {
-            Tickets.Add(ticket);
+            _tickets.Add(ticket);
         }
 
         public void GetPrize(Ticket ticket)
