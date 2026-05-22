@@ -25,7 +25,7 @@ namespace Model.Core
                     count++;
                 }
             }
-            if ((int)count * 0.25 < TicketsCount)
+            if ((int)count < TicketsCount * 0.25)
             {
                 return CancelLottery;
             }
