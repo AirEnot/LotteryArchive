@@ -30,7 +30,13 @@ namespace Model.Core
 
         public long PrizePool {  get; private set; }
 
-        public List<Ticket> LotteryTickets { get; private set; }
+        public List<Ticket> LotteryTickets 
+        { 
+            get {
+                return LotteryTickets.ToList();
+            } 
+            private set; 
+        }
 
         public Lottery(string name, int ticketsCount, long prizePool)
         {
@@ -52,7 +58,7 @@ namespace Model.Core
             }
             for (int i = WinningTicketsCount; i < TicketsCount; i++)
             {
-                LotteryTickets.Add(new Ticket(_ticketsID, false, Name));
+                LotteryTickets.Add(new Ticket(_ticketsID, false, Name, TicketsPrice));
                 _ticketsID++;
             }
             LotteryTickets.Shuffle();

@@ -11,9 +11,7 @@ namespace Model.Core
         string LotteryName { get; }
         int Id { get; }
         string ParticipantId { get;}
-        bool isSold { get; }
-        void AddOwner(string participantID) { }
-
+        bool IsSold { get; }
         string Print();
     }
 }

@@ -11,32 +11,28 @@ namespace Model.Core
         public string LotteryName { get; private set; }
         public int Id { get ; private set; }
         public string ParticipantId { get; protected set; }
-        public bool isSold { get ; private set; }
+        public bool IsSold { get ; private set; }
 
-        public Ticket(int id, bool isSold, string lotteryName)
+        public Ticket(int id, bool IsSold, string lotteryName)
         {
             Id = id;
-            this.isSold = isSold;
+            this.IsSold = IsSold;
             LotteryName = lotteryName;
         }
 
         public void SellToParticipant(LotteryParticipant participant)
         {
-            if (isSold)
+            if (IsSold)
             {
                 throw new InvalidOperationException("Ticket is already sold.");
             }
             this.ParticipantId = participant.Id;
-            isSold = true;
+            IsSold = true;
         }
 
-        public void AddOwner(string participantID)
-        {
-            ParticipantId = participantID;
-        }
         public string Print()
         {
-            return $"Ticket ID: {Id}, Participant ID: {ParticipantId}, Sold: {isSold}";
+            return $"Ticket ID: {Id}, Participant ID: {ParticipantId}, Sold: {IsSold}";
         }
     }
 }

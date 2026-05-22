@@ -20,7 +20,7 @@ namespace Model.Core
             int count = 0;
             for (int i = 0; i < TicketsCount; i++)
             {
-                if (LotteryTickets[i].isSold)
+                if (LotteryTickets[i].IsSold)
                 {
                     count++;
                 }

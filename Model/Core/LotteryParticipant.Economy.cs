@@ -28,10 +28,11 @@ namespace Model.Core
             {
                 if (Balance >= lottery.TicketsPrice)
                 {
-                    bool isSold = lottery.SellTicket(this);
+                    bool IsSold = lottery.SellTicket(this);
 
-                    if (!isSold) break;
+                    if (!IsSold) break;
                     Balance -= lottery.TicketsPrice;
+                    TotalSpent += lottery.TicketsPrice;
                 }
                 else
                 {

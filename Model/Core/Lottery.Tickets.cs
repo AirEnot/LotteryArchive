@@ -15,12 +15,7 @@ namespace Model.Core
         {
             if (_lastTicketId + 1 >= TicketsCount)
             {
-                return false; // No more tickets available
-            }
-
-            if (participant.Balance < TicketsPrice)
-            {
-                return false; // Not enough balance to buy a ticket
+                return false;
             }
 
             _lastTicketId++;
