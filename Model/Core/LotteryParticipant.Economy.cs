@@ -41,11 +41,14 @@ namespace Model.Core
             Tickets.Add(ticket);
         }
 
-        public void GetPrize(long amount)
+        public void GetPrize(Ticket ticket)
         {
-            Balance += amount;
+            //Balance += amount;
         }
+        public void ReturnMoney(Ticket ticket)
+        {
 
+        }
         public void ChangeGreed(int greed)
         {
             Greed = greed * 100 / 10000;

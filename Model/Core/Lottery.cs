@@ -45,12 +45,12 @@ namespace Model.Core
             _winningTicketPrize = PrizePool / WinningTicketsCount;
             for (int i = 0; i < WinningTicketsCount; i++)
             {
-                LotteryTickets[i] = new WinningTicket(_ticketsID, false, TicketsPrice, _winningTicketPrize);
+                LotteryTickets.Add(new WinningTicket(_ticketsID, false, TicketsPrice, _winningTicketPrize));
                 _ticketsID++;
             }
             for (int i = WinningTicketsCount; i < TicketsCount; i++)
             {
-                LotteryTickets[i] = new Ticket(_ticketsID, false);
+                LotteryTickets.Add(new Ticket(_ticketsID, false));
                 _ticketsID++;
             }
             LotteryTickets.Shuffle();
