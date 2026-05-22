@@ -31,7 +31,7 @@ namespace Model.Core
 
         public void DrawLottery(Lottery lottery)
         {
-            lottery.Draw();
+            lottery.Draw(AllPeople);
         }
     }
 }

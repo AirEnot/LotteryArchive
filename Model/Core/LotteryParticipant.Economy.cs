@@ -57,12 +57,12 @@ namespace Model.Core
 
         public void ReturnMoney(Ticket ticket)
         {
-            int TicketPrice = ticket.Price;
-            int moneyToReturn = TicketPrice * 90 / 100;
-            Balance += moneyToReturn;
-            TotalSpent -= TicketPrice;
-        }
+            int ticketPrice = ticket.Price;
+            int moneyToReturn = ticketPrice * 90 / 100;
 
+            Balance += moneyToReturn;
+            TotalSpent -= moneyToReturn;
+        }
         public void ChangeGreed(int greed)
         {
             Greed = greed * 100 / 10000;
