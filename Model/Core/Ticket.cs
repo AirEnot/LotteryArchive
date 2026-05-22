@@ -8,14 +8,16 @@ namespace Model.Core
 {
     public partial class Ticket : ITicket
     {
+        public string LotteryName { get; private set; }
         public int Id { get ; private set; }
         public string ParticipantId { get; protected set; }
         public bool isSold { get ; private set; }
 
-        public Ticket(int id, bool isSold)
+        public Ticket(int id, bool isSold, string lotteryName)
         {
             Id = id;
             this.isSold = isSold;
+            LotteryName = lotteryName;
         }
 
         public void SellToParticipant(LotteryParticipant participant)

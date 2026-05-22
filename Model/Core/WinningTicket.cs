@@ -9,7 +9,7 @@ namespace Model.Core
     public class WinningTicket : Ticket
     {
         public long PrizeAmount { get; private set; }
-        public WinningTicket(int id, bool isSold, int price, long prizeAmount) : base(id, isSold, price)
+        public WinningTicket(int id, bool isSold, string lotteryName,int price, long prizeAmount) : base(id, isSold, lotteryName, price)
         {
             PrizeAmount = prizeAmount;
         }

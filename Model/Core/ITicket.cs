@@ -8,10 +8,10 @@ namespace Model.Core
 {
     public interface ITicket
     {
+        string LotteryName { get; }
         int Id { get; }
         string ParticipantId { get;}
         bool isSold { get; }
-
         void AddOwner(string participantID) { }
 
         string Print();

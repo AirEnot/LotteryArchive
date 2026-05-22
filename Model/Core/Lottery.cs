@@ -8,6 +8,7 @@ namespace Model.Core
 {
     public partial class Lottery
     {
+        public string Name { get; private set; }
         private int _ticketsID;
         public int TicketsPrice
         {
@@ -31,8 +32,9 @@ namespace Model.Core
 
         public List<Ticket> LotteryTickets { get; private set; }
 
-        public Lottery(int ticketsCount, long prizePool)
+        public Lottery(string name, int ticketsCount, long prizePool)
         {
+            Name = name;
             _ticketsID = 0;
             TicketsCount = ticketsCount;
             PrizePool = prizePool;
@@ -45,12 +47,12 @@ namespace Model.Core
             _winningTicketPrize = PrizePool / WinningTicketsCount;
             for (int i = 0; i < WinningTicketsCount; i++)
             {
-                LotteryTickets.Add(new WinningTicket(_ticketsID, false, TicketsPrice, _winningTicketPrize));
+                LotteryTickets.Add(new WinningTicket(_ticketsID, false, Name, TicketsPrice, _winningTicketPrize));
                 _ticketsID++;
             }
             for (int i = WinningTicketsCount; i < TicketsCount; i++)
             {
-                LotteryTickets.Add(new Ticket(_ticketsID, false));
+                LotteryTickets.Add(new Ticket(_ticketsID, false, Name));
                 _ticketsID++;
             }
             LotteryTickets.Shuffle();

@@ -12,7 +12,6 @@ namespace Model.Core
         public List<LotteryParticipant> AllPeople { get; private set; }
         public List<Lottery> AllLotteries { get; private set; }
 
-
         public LotteryController()
         {
             AllPeople = new List<LotteryParticipant>();
