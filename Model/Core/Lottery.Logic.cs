@@ -20,7 +20,7 @@ namespace Model.Core
             int count = 0;
             for (int i = 0; i < TicketsCount; i++)
             {
-                if (LotteryTickets[i].IsSold)
+                if (_lotteryTickets[i].IsSold)
                 {
                     count++;
                 }
@@ -34,7 +34,7 @@ namespace Model.Core
 
         public void GiveAway(List<LotteryParticipant> participants)
         {
-            foreach (var ticket in LotteryTickets)
+            foreach (var ticket in _lotteryTickets)
             {
                 participants.Find(x => x.Id == ticket.ParticipantId)?.GetPrize(ticket);
             }
@@ -42,7 +42,7 @@ namespace Model.Core
         }
         public void CancelLottery(List<LotteryParticipant> participants)
         {
-            foreach (var ticket in LotteryTickets)
+            foreach (var ticket in _lotteryTickets)
             {
                 participants.Find(x => x.Id == ticket.ParticipantId)?.ReturnMoney(ticket);
             }
