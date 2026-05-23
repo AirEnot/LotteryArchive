@@ -9,18 +9,13 @@ namespace Model.Core
     public partial class LotteryParticipant : Person
     {
         public string Id { get; private set; }
-        public List<Ticket> Tickets 
-        {
-            get
-            {
-                return Tickets.ToList();
-            }; 
-        private set; 
-        }
+
+        private List<Ticket> _tickets = new();
+
+        public List<Ticket> Tickets => _tickets.ToList();
 
         public LotteryParticipant(string fullName) : base(fullName)
         {
-            Tickets = new List<Ticket>();
             Id = Guid.NewGuid().ToString();
         }
 

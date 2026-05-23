@@ -7,6 +7,17 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="Auto" MinHeight="50"></RowDefinition>
+            <RowDefinition Height="100"></RowDefinition>
+        </Grid.RowDefinitions>
 
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="10" HorizontalAlignment="Center">
+            <Button FontSize="30" Content="+" Width="30" Height="40" Margin="5" Click="Button_Click"/>
+            <TextBlock Text="Все лотерии" FontSize="20" Width="200" Height="40" Margin="5" Background="Khaki" TextAlignment="Center"/>
+            
+            <Button Content="Таблица участников" Width="150" Height="45" Margin="5"/>
+        </StackPanel>
     </Grid>
 </Window>
