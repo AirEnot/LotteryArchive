@@ -13,11 +13,12 @@ namespace Model.Core
         public string ParticipantId { get; protected set; }
         public bool IsSold { get ; private set; }
 
-        public Ticket(int id, bool IsSold, string lotteryName)
+        public Ticket(int id, bool isSold, string lotteryName, string participantId = null)
         {
             Id = id;
-            this.IsSold = IsSold;
+            IsSold = isSold;
             LotteryName = lotteryName;
+            ParticipantId = participantId;
         }
 
         public void SellToParticipant(LotteryParticipant participant)

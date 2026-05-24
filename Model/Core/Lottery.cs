@@ -40,7 +40,22 @@ namespace Model.Core
             _ticketsID = 0;
             TicketsCount = ticketsCount;
             PrizePool = prizePool;
-            CreateTickets();
+            CreateTickets();    
+        }
+        public Lottery(string name, int ticketsCount, long prizePool, List<Ticket> tickets = null)
+        {
+            Name = name;
+            TicketsCount = ticketsCount;
+            PrizePool = prizePool;
+            _lotteryTickets = tickets ?? new List<Ticket>();
+            _winningTicketPrize = PrizePool / WinningTicketsCount;
+            
+            if (_lotteryTickets.Any())
+            {
+                _ticketsID = _lotteryTickets.Max(t => t.Id) + 1;
+            }
+            
+            _lastTicketId = _lotteryTickets.FindLastIndex(t => t.IsSold);
         }
 
         private void CreateTickets()
