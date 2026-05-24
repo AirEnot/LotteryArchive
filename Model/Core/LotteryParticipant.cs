@@ -18,6 +18,17 @@ namespace Model.Core
         {
             Id = Guid.NewGuid().ToString();
         }
+        public LotteryParticipant(string id, string fullName, long balance, int greed, long totalSpent, long totalWon, List<Ticket> tickets = null) 
+            : base(fullName)
+        {
+            Id = id;
+            Balance = balance;
+            Greed = greed;
+            TotalSpent = totalSpent;
+            TotalWon = totalWon;
+            
+            _tickets = tickets ?? new List<Ticket>(); 
+        }
 
         public void Print()
         {
