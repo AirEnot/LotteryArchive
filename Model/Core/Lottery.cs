@@ -24,7 +24,7 @@ namespace Model.Core
         {
             get
             {
-                return (int)(TicketsCount * 0.04);
+                return (int)Math.Ceiling(TicketsCount * 0.04);
             }
         }
 
