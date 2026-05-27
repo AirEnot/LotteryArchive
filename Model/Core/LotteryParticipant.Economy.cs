@@ -13,7 +13,7 @@ namespace Model.Core
         public long TotalSpent { get; private set; }
         public long TotalWon { get; private set; }
 
-        public LotteryParticipant(string fullName, int balance) : this(fullName)
+        public LotteryParticipant(string fullName, long balance) : this(fullName)
         {
             Balance = balance;
             TotalSpent = 0;

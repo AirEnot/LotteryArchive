@@ -9,11 +9,11 @@ namespace Model.Core
 {
     public partial class Lottery
     {
-        public void Draw(List<LotteryParticipant> participants)
+        public bool Draw(List<LotteryParticipant> participants)
         {
-            var LotteryResult = CheckIfLotteryValid();
-
-            LotteryResult(participants);
+            var lotteryResult = CheckIfLotteryValid();
+            lotteryResult(participants);
+            return !ReferenceEquals(lotteryResult, CancelLottery);
         }
         public Action<List<LotteryParticipant>> CheckIfLotteryValid()
         {
@@ -25,7 +25,8 @@ namespace Model.Core
                     count++;
                 }
             }
-            if ((int)count < TicketsCount * 0.25)
+
+            if (count * 4 <= TicketsCount)
             {
                 return CancelLottery;
             }
