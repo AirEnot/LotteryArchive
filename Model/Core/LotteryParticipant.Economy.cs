@@ -13,30 +13,37 @@ namespace Model.Core
         public long TotalSpent { get; private set; }
         public long TotalWon { get; private set; }
 
-        public LotteryParticipant(string fullName, long balance) : this(fullName)
+        public LotteryParticipant(string fullName, long balance, int greed) : this(fullName)
         {
             Balance = balance;
             TotalSpent = 0;
             TotalWon = 0;
+            Greed = greed;
         }
 
-        public void BuyTicket(Lottery lottery)
+        public void BuyTicket(Lottery lottery, int totalGreed)
         {
-            int ticketsToBuy = lottery.TicketsCount * Greed / 100;
+            if (totalGreed <= 0) return;
+
+            double relativeShare = (double)Greed / totalGreed;
+
+            int maxTicketsByGreed = (int)(lottery.TicketsCount * relativeShare);
+
+            int maxTicketsByBalance = (int)(Balance / lottery.TicketsPrice);
+
+            int ticketsToBuy = Math.Min(maxTicketsByGreed, maxTicketsByBalance);
 
             for (int i = 0; i < ticketsToBuy; i++)
             {
                 if (Balance >= lottery.TicketsPrice)
                 {
-                    bool IsSold = lottery.SellTicket(this);
-
-                    if (!IsSold) break;
+                    bool isSold = lottery.SellTicket(this);
+                    if (!isSold) break; 
                     Balance -= lottery.TicketsPrice;
-                    TotalSpent += lottery.TicketsPrice;
-                }
+                    TotalSpent += lottery.TicketsPrice; }
                 else
                 {
-                    break;
+                    break; 
                 }
             }
         }
@@ -63,10 +70,6 @@ namespace Model.Core
 
             Balance += moneyToReturn;
             TotalSpent -= moneyToReturn;
-        }
-        public void ChangeGreed(int greed)
-        {
-            Greed = greed * 100 / 10000;
         }
     }
 }

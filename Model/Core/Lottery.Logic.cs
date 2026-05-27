@@ -18,16 +18,15 @@ namespace Model.Core
         public Action<List<LotteryParticipant>> CheckIfLotteryValid()
         {
             int count = 0;
-            for (int i = 0; i < TicketsCount; i++)
+
+            foreach(var ticket in _lotteryTickets)
             {
-                if (_lotteryTickets[i].IsSold)
-                {
-                    count++;
-                }
+                if (ticket.IsSold) count++;
             }
 
             if (count * 4 <= TicketsCount)
             {
+                Console.WriteLine(count);
                 return CancelLottery;
             }
             return GiveAway;

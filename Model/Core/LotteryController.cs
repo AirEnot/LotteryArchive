@@ -12,6 +12,7 @@ namespace Model.Core
     public class LotteryController
     {
         //Надо дописать пути, создать отдельный класс Paths и прописать файлы
+        private const int GlobalGreed = 10000;
         public List<LotteryParticipant> AllPeople { get; private set; }
         public List<Lottery> AllLotteries { get; private set; }
 
@@ -41,9 +42,16 @@ namespace Model.Core
             AllLotteries.Add(lottery);
         }
 
-        public void DrawLottery(Lottery lottery)
+        public bool DrawLottery(Lottery lottery)
         {
-            lottery.Draw(AllPeople);
+            return lottery.Draw(AllPeople);
+        }
+
+        public void SellTicketsInLottery(Lottery lottery)
+        {
+            int totalGreed = AllPeople.Sum(p => p.Greed);
+            foreach (LotteryParticipant person in AllPeople)
+                person.BuyTicket(lottery, totalGreed);
         }
 
         public void SaveAsJson()
@@ -80,6 +88,29 @@ namespace Model.Core
 
             AllPeople = _participantStorage.Load();
             AllLotteries = _lotteryStorage.Load();
+        }
+
+        public void TryLoadParticipantsFromStorage()
+        {
+            try
+            {
+                LoadFromJson();
+            }
+            catch
+            {
+                // Пути файлов могут быть ещё не настроены; приложение продолжит с текущими списками в памяти.
+            }
+        }
+
+        public void TrySaveParticipantsToStorage()
+        {
+            try
+            {
+                SaveAsJson();
+            }
+            catch
+            {
+            }
         }
     }
 }
