@@ -10,13 +10,11 @@ namespace Model.Data
         public string Name => _name;
         public string FolderPath => _folderPath;
         public string FileName => _fileName;
-        public string FileExtension => _fileExtension;
         public string FullPath
         {
             get
             {
-                string fullName = $"{FileName}.{FileExtension}";
-                return Path.Combine(FolderPath, fullName);
+                return Path.Combine(FolderPath, _fileName);
             }
         }
 

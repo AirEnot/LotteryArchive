@@ -13,24 +13,29 @@ namespace Model.Core
     {
         //Надо дописать пути, создать отдельный класс Paths и прописать файлы
 
-        private const string JsonParticipantsFilePath = "..\\Model\\Data\\SerializedData\\participants.json";
-        private const string JsonLotteriesFilePath = "..\\Model\\Data\\SerializedData\\lotteries.json";
-        private const string XmlParticipantsFilePath = "..\\Model\\Data\\SerializedData\\participants.xml";
-        private const string XmlLotteriesFilePath = "..\\Model\\Data\\SerializedData\\lotteries.xml";
+        private const string JsonParticipantsFilePath = "participants.json";
+        private const string JsonLotteriesFilePath = "lotteries.json";
+        private const string XmlParticipantsFilePath = "participants.xml";
+        private const string XmlLotteriesFilePath = "lotteries.xml";
 
-        private const int GlobalGreed = 10000;
+        private const string DataDirectory = "..\\LotteryArchive\\Model\\Data\\SerializedData";
+
         public List<LotteryParticipant> AllPeople { get; private set; }
         public List<Lottery> AllLotteries { get; private set; }
 
         private DataStorage<LotteryParticipant> _participantStorage = new DataStorage<LotteryParticipant>();
         private DataStorage<Lottery> _lotteryStorage = new DataStorage<Lottery>();
 
-        private JsonSerializeManager<LotteryParticipant> _jsonParticipantManager = new JsonSerializeManager<LotteryParticipant>(" ", " ");
-        private JsonSerializeManager<Lottery> _jsonLotteryManager = new JsonSerializeManager<Lottery>(" ", " ");
+        private JsonSerializeManager<LotteryParticipant> _jsonParticipantManager 
+            = new JsonSerializeManager<LotteryParticipant>(DataDirectory, JsonParticipantsFilePath);
+        private JsonSerializeManager<Lottery> _jsonLotteryManager 
+            = new JsonSerializeManager<Lottery>(DataDirectory, JsonLotteriesFilePath);
 
-        private XmlParticipantSerializeManager _xmlParticipantManager = new XmlParticipantSerializeManager(" ", " ");
+        private XmlParticipantSerializeManager _xmlParticipantManager 
+            = new XmlParticipantSerializeManager(DataDirectory, XmlParticipantsFilePath);
 
-        private XmlLotterySerializeManager _xmlLotteryManager = new XmlLotterySerializeManager(" ", " ");
+        private XmlLotterySerializeManager _xmlLotteryManager 
+            = new XmlLotterySerializeManager(DataDirectory, XmlLotteriesFilePath);
 
         public LotteryController()
         {

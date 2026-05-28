@@ -4,7 +4,6 @@ namespace Model.Data
     {
         string FolderPath { get; }
         string FileName { get; }
-        string FileExtension { get; }
         string FullPath { get; }
 
         void SelectFolder(string folderPath);
