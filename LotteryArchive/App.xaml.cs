@@ -1,14 +1,21 @@
-﻿using System.Configuration;
-using System.Data;
-using System.Windows;
+﻿using System.Windows;
+using LotteryArchive.Services;
 
-namespace LotteryArchive
+namespace LotteryArchive;
+
+public partial class App : Application
 {
-    /// <summary>
-    /// Interaction logic for App.xaml
-    /// </summary>
-    public partial class App : Application
+    public static AppState State { get; } = new();
+
+    protected override void OnStartup(StartupEventArgs e)
     {
+        base.OnStartup(e);
+        State.LoadOnStartup();
     }
 
+    protected override void OnExit(ExitEventArgs e)
+    {
+        State.SaveOnExit();
+        base.OnExit(e);
+    }
 }

@@ -1,0 +1,63 @@
+<Page x:Class="LotteryArchive.Views.CreateLotteryPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d"
+      Title="CreateLotteryPage">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0"
+                   Style="{StaticResource PageTitleStyle}"
+                   Text="Параметры"
+                   Margin="0,0,0,12" />
+
+        <Border Grid.Row="1" Style="{StaticResource FormCardStyle}">
+            <StackPanel>
+                <TextBlock Text="Название лотереи" FontWeight="SemiBold" />
+                <TextBox x:Name="LotteryNameBox" Margin="0,6,0,14" MaxLength="100" />
+
+                <TextBlock Text="Количество билетов" FontWeight="SemiBold" />
+                <TextBox x:Name="TicketsCountBox"
+                         Margin="0,6,0,14"
+                         PreviewTextInput="NumericBox_OnPreviewTextInput"
+                         TextChanged="LotteryValidation_OnChanged" />
+
+                <TextBlock Text="Призовой фонд" FontWeight="SemiBold" />
+                <TextBox x:Name="PrizePoolBox"
+                         Margin="0,6,0,8"
+                         PreviewTextInput="NumericBox_OnPreviewTextInput"
+                         TextChanged="LotteryValidation_OnChanged" />
+
+                <TextBlock x:Name="ValidationText"
+                           Foreground="IndianRed"
+                           FontWeight="SemiBold"
+                           TextWrapping="Wrap"
+                           Visibility="Collapsed" />
+            </StackPanel>
+        </Border>
+
+        <Border Grid.Row="2" Style="{StaticResource BottomBarStyle}" Margin="0,16,0,0">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="12" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="0"
+                        Style="{StaticResource SecondaryButtonStyle}"
+                        Content="Назад"
+                        Click="BackButton_OnClick" />
+                <Button Grid.Column="2"
+                        Style="{StaticResource PrimaryButtonStyle}"
+                        Content="Создать"
+                        Click="CreateButton_OnClick" />
+            </Grid>
+        </Border>
+    </Grid>
+</Page>

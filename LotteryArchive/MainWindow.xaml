@@ -3,21 +3,15 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:LotteryArchive"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Lottery Archive"
+        Width="1000"
+        Height="700"
+        MinWidth="800"
+        MinHeight="600"
+        WindowStartupLocation="CenterScreen">
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="100"></RowDefinition>
-            <RowDefinition Height="Auto" MinHeight="50"></RowDefinition>
-            <RowDefinition Height="100"></RowDefinition>
-        </Grid.RowDefinitions>
-
-        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="10" HorizontalAlignment="Center">
-            <Button FontSize="30" Content="+" Width="30" Height="40" Margin="5" Click="Button_Click"/>
-            <TextBlock Text="Все лотерии" FontSize="20" Width="200" Height="40" Margin="5" Background="Khaki" TextAlignment="Center"/>
-            
-            <Button Content="Таблица участников" Width="150" Height="45" Margin="5"/>
-        </StackPanel>
+        <Frame x:Name="RootFrame"
+               NavigationUIVisibility="Hidden" />
     </Grid>
 </Window>
