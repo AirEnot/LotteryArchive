@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfLotteryParticipantDTO xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LotteryParticipantDTO>
+    <Id>3fcce31c-87e6-4043-a2f1-69614243f1e5</Id>
+    <FullName>Fred</FullName>
+    <Balance>999</Balance>
+    <Greed>30</Greed>
+    <TotalSpent>0</TotalSpent>
+    <TotalWon>0</TotalWon>
+    <Tickets />
+  </LotteryParticipantDTO>
+</ArrayOfLotteryParticipantDTO>

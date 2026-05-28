@@ -25,7 +25,9 @@ namespace Model.Data
 
         public override IEnumerable<T> Deserialize(string path)
         {
-            if (!File.Exists(path)) return new List<T>();
+            if (!File.Exists(path))
+                return new List<T>();
+            
             string json = File.ReadAllText(path);
             return JsonConvert.DeserializeObject<List<T>>(json, _settings) ?? new List<T>();
         }

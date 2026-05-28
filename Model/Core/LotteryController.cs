@@ -115,7 +115,7 @@ namespace Model.Core
             AllLotteries = _lotteryStorage.Load();
         }
 
-        public void TrySaveParticipantsToStorage(Action saveMethod)
+        public void TrySaveToStorage(Action saveMethod)
         {
             try
             {
@@ -126,7 +126,7 @@ namespace Model.Core
             }
         }
 
-        public void TryLoadParticipantsFromStorage(Action loadMethod)
+        public void TryLoadFromStorage(Action loadMethod)
         {
             try
             {

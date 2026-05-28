@@ -19,7 +19,7 @@ namespace Model.Data
         public void Save(IEnumerable<T> items)
         {
             if (_manager == null) throw new InvalidOperationException("Менеджер не задан");
-            _manager.Serialize(items, _manager.FolderPath);
+            _manager.Serialize(items, _manager.FullPath);
         }
 
         public List<T> Load()

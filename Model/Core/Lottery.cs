@@ -14,7 +14,7 @@ namespace Model.Core
         {
             get
             {
-                return (int)PrizePool * 2 / TicketsCount;
+                return (int)(PrizePool * 1.5 / TicketsCount);
             }
         }
 
@@ -24,7 +24,7 @@ namespace Model.Core
         {
             get
             {
-                return (int)Math.Ceiling(TicketsCount * 0.04);
+                return (int)Math.Ceiling(TicketsCount * 0.02);
             }
         }
 

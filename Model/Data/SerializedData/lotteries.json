@@ -1,0 +1,637 @@
+[
+  {
+    "Name": "Лотера",
+    "TicketsPrice": 131,
+    "TicketsCount": 89,
+    "PrizePool": 7778,
+    "LotteryTickets": [
+      {
+        "LotteryName": "Лотера",
+        "Id": 57,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 12,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 71,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 75,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 13,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 69,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 44,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 62,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 68,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 78,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 70,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 10,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 50,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 73,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 28,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 74,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 67,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 39,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 47,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 5,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 22,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 58,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 59,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 53,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 36,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 38,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 8,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 40,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 31,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 9,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 23,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 64,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 42,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "$type": "Model.Core.WinningTicket, Model",
+        "PrizeAmount": 3889,
+        "LotteryName": "Лотера",
+        "Id": 0,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 54,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 88,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 81,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 61,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 49,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 63,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 65,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 26,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 29,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 16,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 80,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 55,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 85,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 7,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 11,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 2,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 77,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 24,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 82,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 18,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 76,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 17,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 14,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "$type": "Model.Core.WinningTicket, Model",
+        "PrizeAmount": 3889,
+        "LotteryName": "Лотера",
+        "Id": 1,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 30,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 37,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 41,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 84,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 46,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 86,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 20,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 25,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 56,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 52,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 15,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 6,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 32,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 83,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 66,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 34,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 33,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 27,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 4,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 48,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 21,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 43,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 79,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 35,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 87,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 45,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 60,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 19,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 51,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 3,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      },
+      {
+        "LotteryName": "Лотера",
+        "Id": 72,
+        "ParticipantId": null,
+        "IsSold": false,
+        "Price": 131
+      }
+    ]
+  }
+]
