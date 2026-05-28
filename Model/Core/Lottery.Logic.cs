@@ -13,14 +13,6 @@ namespace Model.Core
         {
             var lotteryResult = CheckIfLotteryValid();
             lotteryResult(participants);
-            //if (!File.Exists("lottery_log.txt"))
-            //{
-            //    File.Create("lottery_log.txt").Close();
-            //}
-            //using (StreamWriter sw = new StreamWriter("lottery_log.txt", true))
-            //{
-            //    sw.WriteLine($"Lottery drawn at {DateTime.Now}. Result: " +
-            //        $"{(lotteryResult == CancelLottery ? "Given away" : "Cancelled")}");
             //}
             return !(lotteryResult == CancelLottery);
         }

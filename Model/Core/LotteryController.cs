@@ -11,14 +11,14 @@ namespace Model.Core
 {
     public class LotteryController
     {
-        //Надо дописать пути, создать отдельный класс Paths и прописать файлы
-
         private const string JsonParticipantsFilePath = "participants.json";
         private const string JsonLotteriesFilePath = "lotteries.json";
         private const string XmlParticipantsFilePath = "participants.xml";
         private const string XmlLotteriesFilePath = "lotteries.xml";
 
-        private const string DataDirectory = "..\\LotteryArchive\\Model\\Data\\SerializedData";
+        private static string DataDirectory = Path.GetFullPath(
+            Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\..\..\Model\Data\SerializedData")
+        );
 
         public List<LotteryParticipant> AllPeople { get; private set; }
         public List<Lottery> AllLotteries { get; private set; }
@@ -41,6 +41,10 @@ namespace Model.Core
         {
             AllPeople = new List<LotteryParticipant>();
             AllLotteries = new List<Lottery>();
+            if (!Directory.Exists(DataDirectory))
+            {
+                Directory.CreateDirectory(DataDirectory);
+            }
         }
 
         public void AddParticipant(LotteryParticipant participant)
@@ -63,6 +67,16 @@ namespace Model.Core
             int totalGreed = AllPeople.Sum(p => p.Greed);
             foreach (LotteryParticipant person in AllPeople)
                 person.BuyTicket(lottery, totalGreed);
+        }
+
+        public void RemoveLottery(Lottery lottery)
+        {
+            AllLotteries.Remove(lottery);
+        }
+
+        public void RemoveParticipant(LotteryParticipant participant)
+        {
+            AllPeople.Remove(participant);
         }
 
         public void SaveAsJson()
@@ -101,25 +115,24 @@ namespace Model.Core
             AllLotteries = _lotteryStorage.Load();
         }
 
-        public void TryLoadParticipantsFromStorage()
+        public void TrySaveParticipantsToStorage(Action saveMethod)
         {
             try
             {
-                LoadFromJson();
+                saveMethod();
             }
-            catch
+            catch (Exception ex)
             {
-                // Пути файлов могут быть ещё не настроены; приложение продолжит с текущими списками в памяти.
             }
         }
 
-        public void TrySaveParticipantsToStorage()
+        public void TryLoadParticipantsFromStorage(Action loadMethod)
         {
             try
             {
-                SaveAsJson();
+                loadMethod();
             }
-            catch
+            catch (Exception ex)
             {
             }
         }
