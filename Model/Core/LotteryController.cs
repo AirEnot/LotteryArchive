@@ -12,6 +12,12 @@ namespace Model.Core
     public class LotteryController
     {
         //Надо дописать пути, создать отдельный класс Paths и прописать файлы
+
+        private const string JsonParticipantsFilePath = "..\\Model\\Data\\SerializedData\\participants.json";
+        private const string JsonLotteriesFilePath = "..\\Model\\Data\\SerializedData\\lotteries.json";
+        private const string XmlParticipantsFilePath = "..\\Model\\Data\\SerializedData\\participants.xml";
+        private const string XmlLotteriesFilePath = "..\\Model\\Data\\SerializedData\\lotteries.xml";
+
         private const int GlobalGreed = 10000;
         public List<LotteryParticipant> AllPeople { get; private set; }
         public List<Lottery> AllLotteries { get; private set; }

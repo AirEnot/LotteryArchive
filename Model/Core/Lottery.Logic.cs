@@ -13,7 +13,16 @@ namespace Model.Core
         {
             var lotteryResult = CheckIfLotteryValid();
             lotteryResult(participants);
-            return !ReferenceEquals(lotteryResult, CancelLottery);
+            //if (!File.Exists("lottery_log.txt"))
+            //{
+            //    File.Create("lottery_log.txt").Close();
+            //}
+            //using (StreamWriter sw = new StreamWriter("lottery_log.txt", true))
+            //{
+            //    sw.WriteLine($"Lottery drawn at {DateTime.Now}. Result: " +
+            //        $"{(lotteryResult == CancelLottery ? "Given away" : "Cancelled")}");
+            //}
+            return !(lotteryResult == CancelLottery);
         }
         public Action<List<LotteryParticipant>> CheckIfLotteryValid()
         {
@@ -26,9 +35,9 @@ namespace Model.Core
 
             if (count * 4 <= TicketsCount)
             {
-                Console.WriteLine(count);
                 return CancelLottery;
             }
+
             return GiveAway;
         }
 
