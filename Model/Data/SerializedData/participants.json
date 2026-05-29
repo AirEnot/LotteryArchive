@@ -1,20 +1,2277 @@
 [
   {
-    "Id": "6e17796a-1d9f-448e-8a36-ad3356773b9b",
-    "Tickets": [],
-    "Balance": 1300,
-    "Greed": 34,
-    "TotalSpent": 0,
+    "Id": "fab95ca9-e471-4037-ac3d-400490a96274",
+    "Tickets": [
+      {
+        "LotteryName": "casic",
+        "Id": 50,
+        "ParticipantId": "fab95ca9-e471-4037-ac3d-400490a96274",
+        "IsSold": true,
+        "Price": 149
+      },
+      {
+        "LotteryName": "casic",
+        "Id": 60,
+        "ParticipantId": "fab95ca9-e471-4037-ac3d-400490a96274",
+        "IsSold": true,
+        "Price": 149
+      },
+      {
+        "LotteryName": "casic",
+        "Id": 134,
+        "ParticipantId": "fab95ca9-e471-4037-ac3d-400490a96274",
+        "IsSold": true,
+        "Price": 149
+      },
+      {
+        "LotteryName": "casic",
+        "Id": 123,
+        "ParticipantId": "fab95ca9-e471-4037-ac3d-400490a96274",
+        "IsSold": true,
+        "Price": 149
+      },
+      {
+        "LotteryName": "casic",
+        "Id": 31,
+        "ParticipantId": "fab95ca9-e471-4037-ac3d-400490a96274",
+        "IsSold": true,
+        "Price": 149
+      },
+      {
+        "$type": "Model.Core.WinningTicket, Model",
+        "PrizeAmount": 4814,
+        "LotteryName": "casic",
+        "Id": 2,
+        "ParticipantId": "fab95ca9-e471-4037-ac3d-400490a96274",
+        "IsSold": true,
+        "Price": 149
+      },
+      {
+        "LotteryName": "casic",
+        "Id": 83,
+        "ParticipantId": "fab95ca9-e471-4037-ac3d-400490a96274",
+        "IsSold": true,
+        "Price": 149
+      },
+      {
+        "LotteryName": "casic",
+        "Id": 63,
+        "ParticipantId": "fab95ca9-e471-4037-ac3d-400490a96274",
+        "IsSold": true,
+        "Price": 149
+      },
+      {
+        "LotteryName": "casic",
+        "Id": 23,
+        "ParticipantId": "fab95ca9-e471-4037-ac3d-400490a96274",
+        "IsSold": true,
+        "Price": 149
+      },
+      {
+        "LotteryName": "Новая для проверки хмл",
+        "Id": 77,
+        "ParticipantId": "fab95ca9-e471-4037-ac3d-400490a96274",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Новая для проверки хмл",
+        "Id": 85,
+        "ParticipantId": "fab95ca9-e471-4037-ac3d-400490a96274",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Новая для проверки хмл",
+        "Id": 97,
+        "ParticipantId": "fab95ca9-e471-4037-ac3d-400490a96274",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Новая для проверки хмл",
+        "Id": 92,
+        "ParticipantId": "fab95ca9-e471-4037-ac3d-400490a96274",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Новая для проверки хмл",
+        "Id": 6,
+        "ParticipantId": "fab95ca9-e471-4037-ac3d-400490a96274",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Новая для проверки хмл",
+        "Id": 54,
+        "ParticipantId": "fab95ca9-e471-4037-ac3d-400490a96274",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Новая для проверки хмл",
+        "Id": 42,
+        "ParticipantId": "fab95ca9-e471-4037-ac3d-400490a96274",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Новая для проверки хмл",
+        "Id": 52,
+        "ParticipantId": "fab95ca9-e471-4037-ac3d-400490a96274",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 11,
+        "ParticipantId": "fab95ca9-e471-4037-ac3d-400490a96274",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 14,
+        "ParticipantId": "fab95ca9-e471-4037-ac3d-400490a96274",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 39,
+        "ParticipantId": "fab95ca9-e471-4037-ac3d-400490a96274",
+        "IsSold": true,
+        "Price": 30
+      }
+    ],
+    "Balance": 25,
+    "Greed": 14,
+    "TotalSpent": 1425,
     "TotalWon": 0,
+    "FullName": "Егор"
+  },
+  {
+    "Id": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+    "Tickets": [
+      {
+        "LotteryName": "casic",
+        "Id": 88,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 149
+      },
+      {
+        "LotteryName": "casic",
+        "Id": 97,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 149
+      },
+      {
+        "LotteryName": "casic",
+        "Id": 28,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 149
+      },
+      {
+        "LotteryName": "casic",
+        "Id": 132,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 149
+      },
+      {
+        "LotteryName": "casic",
+        "Id": 34,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 149
+      },
+      {
+        "LotteryName": "casic",
+        "Id": 111,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 149
+      },
+      {
+        "LotteryName": "casic",
+        "Id": 90,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 149
+      },
+      {
+        "LotteryName": "casic",
+        "Id": 107,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 149
+      },
+      {
+        "LotteryName": "casic",
+        "Id": 14,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 149
+      },
+      {
+        "LotteryName": "casic",
+        "Id": 80,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 149
+      },
+      {
+        "LotteryName": "casic",
+        "Id": 19,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 149
+      },
+      {
+        "LotteryName": "casic",
+        "Id": 112,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 149
+      },
+      {
+        "LotteryName": "casic",
+        "Id": 66,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 149
+      },
+      {
+        "LotteryName": "Новая для проверки хмл",
+        "Id": 8,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Новая для проверки хмл",
+        "Id": 45,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Новая для проверки хмл",
+        "Id": 28,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Новая для проверки хмл",
+        "Id": 5,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Новая для проверки хмл",
+        "Id": 68,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "$type": "Model.Core.WinningTicket, Model",
+        "PrizeAmount": 5000,
+        "LotteryName": "Новая для проверки хмл",
+        "Id": 1,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Новая для проверки хмл",
+        "Id": 13,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Новая для проверки хмл",
+        "Id": 17,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Новая для проверки хмл",
+        "Id": 88,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Новая для проверки хмл",
+        "Id": 63,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Новая для проверки хмл",
+        "Id": 21,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Новая для проверки хмл",
+        "Id": 25,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "новая",
+        "Id": 22,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 208
+      },
+      {
+        "LotteryName": "новая",
+        "Id": 101,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 208
+      },
+      {
+        "LotteryName": "новая",
+        "Id": 55,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 208
+      },
+      {
+        "LotteryName": "новая",
+        "Id": 72,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 208
+      },
+      {
+        "LotteryName": "новая",
+        "Id": 16,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 208
+      },
+      {
+        "LotteryName": "новая",
+        "Id": 93,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 208
+      },
+      {
+        "LotteryName": "новая",
+        "Id": 138,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 208
+      },
+      {
+        "LotteryName": "новая",
+        "Id": 79,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 208
+      },
+      {
+        "LotteryName": "новая",
+        "Id": 62,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 208
+      },
+      {
+        "LotteryName": "новая",
+        "Id": 130,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 208
+      },
+      {
+        "LotteryName": "новая",
+        "Id": 9,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 208
+      },
+      {
+        "LotteryName": "новая",
+        "Id": 14,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 208
+      },
+      {
+        "LotteryName": "новая",
+        "Id": 84,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 208
+      },
+      {
+        "LotteryName": "новая",
+        "Id": 81,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 208
+      },
+      {
+        "LotteryName": "новая",
+        "Id": 50,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 208
+      },
+      {
+        "LotteryName": "новая",
+        "Id": 47,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 208
+      },
+      {
+        "LotteryName": "новая",
+        "Id": 26,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 208
+      },
+      {
+        "LotteryName": "новая",
+        "Id": 143,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 208
+      },
+      {
+        "LotteryName": "новая",
+        "Id": 63,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 208
+      },
+      {
+        "LotteryName": "новая",
+        "Id": 8,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 208
+      },
+      {
+        "LotteryName": "новая",
+        "Id": 32,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 208
+      },
+      {
+        "LotteryName": "новая",
+        "Id": 18,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 208
+      },
+      {
+        "LotteryName": "новая",
+        "Id": 132,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 208
+      },
+      {
+        "LotteryName": "новая",
+        "Id": 66,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 208
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 408,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 819,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 598,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 127,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 86,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 930,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 288,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 328,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 91,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 56,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 752,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 914,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 741,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 189,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 387,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 411,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 618,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 349,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 602,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 501,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 967,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 424,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 529,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 723,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 719,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 659,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 405,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 654,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 880,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 335,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 69,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 4,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 65,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 95,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 7,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 8,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 73,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 36,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 9,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 13,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 6,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 89,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 91,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 58,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 90,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "$type": "Model.Core.WinningTicket, Model",
+        "PrizeAmount": 1000,
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 0,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 37,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 52,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 99,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 75,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 28,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 84,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 43,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 50,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 12,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 68,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 79,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 47,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 59,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 85,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 86,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 19,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 78,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 21,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 34,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 93,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 51,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 60,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 44,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 96,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 5,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 23,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 16,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 17,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 61,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 49,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 32,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 45,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 62,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 57,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 83,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 41,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 72,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 46,
+        "ParticipantId": "b6b33899-33ab-411a-9ae2-a6edcfa7d8a4",
+        "IsSold": true,
+        "Price": 30
+      }
+    ],
+    "Balance": 3431,
+    "Greed": 65,
+    "TotalSpent": 4569,
+    "TotalWon": 6000,
     "FullName": "Арсений"
   },
   {
-    "Id": "fab95ca9-e471-4037-ac3d-400490a96274",
-    "Tickets": [],
-    "Balance": 1450,
-    "Greed": 14,
-    "TotalSpent": 0,
-    "TotalWon": 0,
-    "FullName": "Егор"
+    "Id": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+    "Tickets": [
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 724,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 547,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 48,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 203,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 36,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 257,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 891,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 721,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 861,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 362,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 271,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 313,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 35,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 30,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 388,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 774,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 528,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "$type": "Model.Core.WinningTicket, Model",
+        "PrizeAmount": 5000,
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 10,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 527,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 284,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 779,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 506,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 843,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 711,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 234,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 828,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 289,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 117,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 401,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 398,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 318,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 308,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 150,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 888,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 754,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 657,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 196,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 588,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 820,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 197,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 179,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 373,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 859,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 142,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 998,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 90,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 106,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 677,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 934,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 441,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 643,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 323,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 185,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 983,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 879,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 309,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 794,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 733,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 533,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 119,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 92,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 285,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 720,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 585,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 713,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 757,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 355,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "$type": "Model.Core.WinningTicket, Model",
+        "PrizeAmount": 5000,
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 5,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 118,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 22,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 245,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 562,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 236,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 482,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 626,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 960,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 205,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 99,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 755,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 687,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 65,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 458,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 987,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 107,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 287,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 138,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 216,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 386,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 181,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 630,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 750,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 521,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 505,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 238,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 649,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 563,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 642,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 786,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 27,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 877,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 722,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 331,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 341,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 462,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 647,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 929,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 596,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 229,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 445,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 149,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 417,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 670,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 542,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 591,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 707,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 375,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 337,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 840,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 589,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 433,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 70,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 989,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 726,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 120,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 147,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 939,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 739,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 556,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 38,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 201,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 857,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 377,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Игорь, если ты это читаешь, значит это победа",
+        "Id": 911,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 150
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 15,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 24,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 55,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 71,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 29,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 10,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 81,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 67,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 27,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 80,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 56,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 26,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 88,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 20,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 2,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 30,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 64,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 38,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 82,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 25,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 87,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 66,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 54,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "$type": "Model.Core.WinningTicket, Model",
+        "PrizeAmount": 1000,
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 1,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 94,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 48,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 33,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 35,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 31,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 70,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 53,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 97,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 30
+      },
+      {
+        "LotteryName": "Помурчи мне в дс",
+        "Id": 98,
+        "ParticipantId": "1d60231f-5fab-49fb-aa2a-dbcee6c25337",
+        "IsSold": true,
+        "Price": 30
+      }
+    ],
+    "Balance": 18015,
+    "Greed": 40,
+    "TotalSpent": 2985,
+    "TotalWon": 1000,
+    "FullName": "Полина"
   }
 ]

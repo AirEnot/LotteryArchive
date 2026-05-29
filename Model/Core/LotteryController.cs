@@ -16,6 +16,8 @@ namespace Model.Core
         private const string XmlParticipantsFilePath = "participants.xml";
         private const string XmlLotteriesFilePath = "lotteries.xml";
 
+        private const string LogFileName = "logging.txt";
+
         private static string DataDirectory = Path.GetFullPath(
             Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\..\..\Model\Data\SerializedData")
         );
@@ -123,6 +125,7 @@ namespace Model.Core
             }
             catch (Exception ex)
             {
+                LogException("сохранение", ex);
             }
         }
 
@@ -134,6 +137,21 @@ namespace Model.Core
             }
             catch (Exception ex)
             {
+                LogException("загрузка", ex);
+            }
+        }
+
+        private static void LogException(string operation, Exception ex)
+        {
+            try
+            {
+                var logPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, LogFileName);
+                var entry = $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Ошибка при {operation} данных:{Environment.NewLine}{ex}{Environment.NewLine}{new string('-', 60)}{Environment.NewLine}";
+                File.AppendAllText(logPath, entry);
+            }
+            catch
+            {
+                // Не прерываем работу приложения, если лог недоступен.
             }
         }
     }

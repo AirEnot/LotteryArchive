@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Newtonsoft.Json;
 
 namespace Model.Core
 {
@@ -10,6 +6,7 @@ namespace Model.Core
     {
         public int Price { get; private set; }
 
+        [JsonConstructor]
         public Ticket(int id, bool IsSold, string lotteryName, int price, string participantId = null) 
             : this(id, IsSold, lotteryName, participantId)
         {

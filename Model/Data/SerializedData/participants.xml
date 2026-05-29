@@ -1,21 +1,2272 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfLotteryParticipantDTO xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <LotteryParticipantDTO>
-    <Id>6e17796a-1d9f-448e-8a36-ad3356773b9b</Id>
-    <FullName>Арсений</FullName>
-    <Balance>1300</Balance>
-    <Greed>34</Greed>
-    <TotalSpent>0</TotalSpent>
-    <TotalWon>0</TotalWon>
-    <Tickets />
-  </LotteryParticipantDTO>
-  <LotteryParticipantDTO>
     <Id>fab95ca9-e471-4037-ac3d-400490a96274</Id>
     <FullName>Егор</FullName>
-    <Balance>1450</Balance>
+    <Balance>25</Balance>
     <Greed>14</Greed>
-    <TotalSpent>0</TotalSpent>
+    <TotalSpent>1425</TotalSpent>
     <TotalWon>0</TotalWon>
-    <Tickets />
+    <Tickets>
+      <TicketDTO>
+        <Id>50</Id>
+        <ParticipantId>fab95ca9-e471-4037-ac3d-400490a96274</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>casic</LotteryName>
+        <Price>149</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>60</Id>
+        <ParticipantId>fab95ca9-e471-4037-ac3d-400490a96274</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>casic</LotteryName>
+        <Price>149</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>134</Id>
+        <ParticipantId>fab95ca9-e471-4037-ac3d-400490a96274</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>casic</LotteryName>
+        <Price>149</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>123</Id>
+        <ParticipantId>fab95ca9-e471-4037-ac3d-400490a96274</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>casic</LotteryName>
+        <Price>149</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>31</Id>
+        <ParticipantId>fab95ca9-e471-4037-ac3d-400490a96274</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>casic</LotteryName>
+        <Price>149</Price>
+      </TicketDTO>
+      <TicketDTO xsi:type="WinningTicketDTO">
+        <Id>2</Id>
+        <ParticipantId>fab95ca9-e471-4037-ac3d-400490a96274</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>casic</LotteryName>
+        <Price>149</Price>
+        <PrizeAmount>4814</PrizeAmount>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>83</Id>
+        <ParticipantId>fab95ca9-e471-4037-ac3d-400490a96274</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>casic</LotteryName>
+        <Price>149</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>63</Id>
+        <ParticipantId>fab95ca9-e471-4037-ac3d-400490a96274</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>casic</LotteryName>
+        <Price>149</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>23</Id>
+        <ParticipantId>fab95ca9-e471-4037-ac3d-400490a96274</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>casic</LotteryName>
+        <Price>149</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>77</Id>
+        <ParticipantId>fab95ca9-e471-4037-ac3d-400490a96274</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Новая для проверки хмл</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>85</Id>
+        <ParticipantId>fab95ca9-e471-4037-ac3d-400490a96274</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Новая для проверки хмл</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>97</Id>
+        <ParticipantId>fab95ca9-e471-4037-ac3d-400490a96274</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Новая для проверки хмл</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>92</Id>
+        <ParticipantId>fab95ca9-e471-4037-ac3d-400490a96274</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Новая для проверки хмл</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>6</Id>
+        <ParticipantId>fab95ca9-e471-4037-ac3d-400490a96274</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Новая для проверки хмл</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>54</Id>
+        <ParticipantId>fab95ca9-e471-4037-ac3d-400490a96274</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Новая для проверки хмл</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>42</Id>
+        <ParticipantId>fab95ca9-e471-4037-ac3d-400490a96274</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Новая для проверки хмл</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>52</Id>
+        <ParticipantId>fab95ca9-e471-4037-ac3d-400490a96274</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Новая для проверки хмл</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>11</Id>
+        <ParticipantId>fab95ca9-e471-4037-ac3d-400490a96274</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>14</Id>
+        <ParticipantId>fab95ca9-e471-4037-ac3d-400490a96274</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>39</Id>
+        <ParticipantId>fab95ca9-e471-4037-ac3d-400490a96274</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+    </Tickets>
+  </LotteryParticipantDTO>
+  <LotteryParticipantDTO>
+    <Id>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</Id>
+    <FullName>Арсений</FullName>
+    <Balance>3431</Balance>
+    <Greed>65</Greed>
+    <TotalSpent>4569</TotalSpent>
+    <TotalWon>6000</TotalWon>
+    <Tickets>
+      <TicketDTO>
+        <Id>88</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>casic</LotteryName>
+        <Price>149</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>97</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>casic</LotteryName>
+        <Price>149</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>28</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>casic</LotteryName>
+        <Price>149</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>132</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>casic</LotteryName>
+        <Price>149</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>34</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>casic</LotteryName>
+        <Price>149</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>111</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>casic</LotteryName>
+        <Price>149</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>90</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>casic</LotteryName>
+        <Price>149</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>107</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>casic</LotteryName>
+        <Price>149</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>14</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>casic</LotteryName>
+        <Price>149</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>80</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>casic</LotteryName>
+        <Price>149</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>19</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>casic</LotteryName>
+        <Price>149</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>112</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>casic</LotteryName>
+        <Price>149</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>66</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>casic</LotteryName>
+        <Price>149</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>8</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Новая для проверки хмл</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>45</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Новая для проверки хмл</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>28</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Новая для проверки хмл</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>5</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Новая для проверки хмл</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>68</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Новая для проверки хмл</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO xsi:type="WinningTicketDTO">
+        <Id>1</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Новая для проверки хмл</LotteryName>
+        <Price>150</Price>
+        <PrizeAmount>5000</PrizeAmount>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>13</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Новая для проверки хмл</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>17</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Новая для проверки хмл</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>88</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Новая для проверки хмл</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>63</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Новая для проверки хмл</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>21</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Новая для проверки хмл</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>25</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Новая для проверки хмл</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>22</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>новая</LotteryName>
+        <Price>208</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>101</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>новая</LotteryName>
+        <Price>208</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>55</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>новая</LotteryName>
+        <Price>208</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>72</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>новая</LotteryName>
+        <Price>208</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>16</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>новая</LotteryName>
+        <Price>208</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>93</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>новая</LotteryName>
+        <Price>208</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>138</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>новая</LotteryName>
+        <Price>208</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>79</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>новая</LotteryName>
+        <Price>208</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>62</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>новая</LotteryName>
+        <Price>208</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>130</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>новая</LotteryName>
+        <Price>208</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>9</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>новая</LotteryName>
+        <Price>208</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>14</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>новая</LotteryName>
+        <Price>208</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>84</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>новая</LotteryName>
+        <Price>208</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>81</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>новая</LotteryName>
+        <Price>208</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>50</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>новая</LotteryName>
+        <Price>208</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>47</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>новая</LotteryName>
+        <Price>208</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>26</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>новая</LotteryName>
+        <Price>208</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>143</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>новая</LotteryName>
+        <Price>208</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>63</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>новая</LotteryName>
+        <Price>208</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>8</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>новая</LotteryName>
+        <Price>208</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>32</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>новая</LotteryName>
+        <Price>208</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>18</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>новая</LotteryName>
+        <Price>208</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>132</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>новая</LotteryName>
+        <Price>208</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>66</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>новая</LotteryName>
+        <Price>208</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>408</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>819</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>598</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>127</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>86</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>930</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>288</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>328</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>91</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>56</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>752</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>914</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>741</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>189</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>387</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>411</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>618</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>349</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>602</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>501</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>967</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>424</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>529</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>723</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>719</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>659</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>405</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>654</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>880</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>335</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>69</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>4</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>65</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>95</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>7</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>8</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>73</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>36</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>9</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>13</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>6</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>89</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>91</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>58</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>90</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO xsi:type="WinningTicketDTO">
+        <Id>0</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+        <PrizeAmount>1000</PrizeAmount>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>37</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>52</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>99</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>75</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>28</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>84</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>43</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>50</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>12</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>68</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>79</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>47</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>59</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>85</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>86</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>19</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>78</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>21</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>34</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>93</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>51</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>60</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>44</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>96</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>5</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>23</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>16</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>17</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>61</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>49</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>32</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>45</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>62</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>57</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>83</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>41</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>72</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>46</Id>
+        <ParticipantId>b6b33899-33ab-411a-9ae2-a6edcfa7d8a4</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+    </Tickets>
+  </LotteryParticipantDTO>
+  <LotteryParticipantDTO>
+    <Id>1d60231f-5fab-49fb-aa2a-dbcee6c25337</Id>
+    <FullName>Полина</FullName>
+    <Balance>18015</Balance>
+    <Greed>40</Greed>
+    <TotalSpent>2985</TotalSpent>
+    <TotalWon>1000</TotalWon>
+    <Tickets>
+      <TicketDTO>
+        <Id>724</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>547</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>48</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>203</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>36</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>257</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>891</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>721</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>861</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>362</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>271</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>313</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>35</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>30</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>388</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>774</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>528</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO xsi:type="WinningTicketDTO">
+        <Id>10</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+        <PrizeAmount>5000</PrizeAmount>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>527</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>284</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>779</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>506</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>843</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>711</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>234</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>828</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>289</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>117</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>401</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>398</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>318</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>308</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>150</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>888</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>754</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>657</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>196</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>588</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>820</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>197</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>179</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>373</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>859</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>142</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>998</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>90</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>106</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>677</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>934</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>441</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>643</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>323</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>185</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>983</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>879</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>309</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>794</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>733</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>533</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>119</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>92</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>285</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>720</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>585</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>713</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>757</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>355</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO xsi:type="WinningTicketDTO">
+        <Id>5</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+        <PrizeAmount>5000</PrizeAmount>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>118</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>22</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>245</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>562</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>236</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>482</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>626</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>960</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>205</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>99</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>755</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>687</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>65</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>458</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>987</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>107</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>287</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>138</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>216</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>386</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>181</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>630</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>750</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>521</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>505</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>238</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>649</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>563</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>642</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>786</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>27</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>877</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>722</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>331</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>341</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>462</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>647</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>929</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>596</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>229</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>445</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>149</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>417</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>670</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>542</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>591</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>707</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>375</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>337</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>840</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>589</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>433</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>70</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>989</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>726</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>120</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>147</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>939</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>739</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>556</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>38</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>201</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>857</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>377</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>911</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Игорь, если ты это читаешь, значит это победа</LotteryName>
+        <Price>150</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>15</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>24</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>55</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>71</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>29</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>10</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>81</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>67</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>27</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>80</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>56</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>26</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>88</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>20</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>2</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>30</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>64</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>38</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>82</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>25</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>87</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>66</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>54</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO xsi:type="WinningTicketDTO">
+        <Id>1</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+        <PrizeAmount>1000</PrizeAmount>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>94</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>48</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>33</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>35</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>31</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>70</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>53</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>97</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+      <TicketDTO>
+        <Id>98</Id>
+        <ParticipantId>1d60231f-5fab-49fb-aa2a-dbcee6c25337</ParticipantId>
+        <IsSold>true</IsSold>
+        <LotteryName>Помурчи мне в дс</LotteryName>
+        <Price>30</Price>
+      </TicketDTO>
+    </Tickets>
   </LotteryParticipantDTO>
 </ArrayOfLotteryParticipantDTO>

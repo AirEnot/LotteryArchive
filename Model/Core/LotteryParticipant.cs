@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,7 +19,8 @@ namespace Model.Core
         {
             Id = Guid.NewGuid().ToString();
         }
-        public LotteryParticipant(string id, string fullName, long balance, int greed, long totalSpent, long totalWon, List<Ticket> tickets = null) 
+        [JsonConstructor]
+        public LotteryParticipant(string id, string fullName, long balance, int greed, long totalSpent, long totalWon, List<Ticket> tickets = null!) 
             : base(fullName)
         {
             Id = id;

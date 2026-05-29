@@ -1,8 +1,10 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 
 namespace Model.Core
 {
@@ -30,7 +32,6 @@ namespace Model.Core
 
         public long PrizePool { get; private set; }
 
-        /// <summary>Лотерея успешно разыграна (не отменена).</summary>
         public bool IsDrawn { get; private set; }
 
         private List<Ticket> _lotteryTickets = new();
@@ -45,13 +46,15 @@ namespace Model.Core
             PrizePool = prizePool;
             CreateTickets();    
         }
-        public Lottery(string name, int ticketsCount, long prizePool, List<Ticket> tickets = null)
+        [JsonConstructor]
+        public Lottery(string name, int ticketsCount, long prizePool, List<Ticket> lotteryTickets = null!, bool isDrawn = false)
         {
             Name = name;
             TicketsCount = ticketsCount;
             PrizePool = prizePool;
-            _lotteryTickets = tickets ?? new List<Ticket>();
+            _lotteryTickets = lotteryTickets ?? new List<Ticket>();
             _winningTicketPrize = PrizePool / WinningTicketsCount;
+            IsDrawn = isDrawn;
             
             if (_lotteryTickets.Any())
             {
@@ -61,9 +64,6 @@ namespace Model.Core
             _lastTicketId = _lotteryTickets.FindLastIndex(t => t.IsSold);
         }
 
-        /// <summary>
-        /// Помечает лотерею как разыгранную. Вызывается после успешного розыгрыша или при восстановлении из хранилища.
-        /// </summary>
         public void MarkAsDrawn()
         {
             IsDrawn = true;
