@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfLotteryParticipantDTO xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <LotteryParticipantDTO>
-    <Id>3fcce31c-87e6-4043-a2f1-69614243f1e5</Id>
-    <FullName>Fred</FullName>
-    <Balance>999</Balance>
-    <Greed>30</Greed>
+    <Id>6e17796a-1d9f-448e-8a36-ad3356773b9b</Id>
+    <FullName>Арсений</FullName>
+    <Balance>1300</Balance>
+    <Greed>34</Greed>
+    <TotalSpent>0</TotalSpent>
+    <TotalWon>0</TotalWon>
+    <Tickets />
+  </LotteryParticipantDTO>
+  <LotteryParticipantDTO>
+    <Id>fab95ca9-e471-4037-ac3d-400490a96274</Id>
+    <FullName>Егор</FullName>
+    <Balance>1450</Balance>
+    <Greed>14</Greed>
     <TotalSpent>0</TotalSpent>
     <TotalWon>0</TotalWon>
     <Tickets />

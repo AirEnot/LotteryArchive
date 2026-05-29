@@ -40,6 +40,7 @@ namespace Model.Core
                 participants.Find(x => x.Id == ticket.ParticipantId)?.GetPrize(ticket);
             }
 
+            //MarkAsDrawn();
         }
         public void CancelLottery(List<LotteryParticipant> participants)
         {

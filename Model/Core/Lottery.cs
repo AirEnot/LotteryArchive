@@ -30,6 +30,9 @@ namespace Model.Core
 
         public long PrizePool { get; private set; }
 
+        /// <summary>Лотерея успешно разыграна (не отменена).</summary>
+        public bool IsDrawn { get; private set; }
+
         private List<Ticket> _lotteryTickets = new();
 
         public List<Ticket> LotteryTickets => _lotteryTickets.ToList();
@@ -56,6 +59,14 @@ namespace Model.Core
             }
             
             _lastTicketId = _lotteryTickets.FindLastIndex(t => t.IsSold);
+        }
+
+        /// <summary>
+        /// Помечает лотерею как разыгранную. Вызывается после успешного розыгрыша или при восстановлении из хранилища.
+        /// </summary>
+        public void MarkAsDrawn()
+        {
+            IsDrawn = true;
         }
 
         private void CreateTickets()

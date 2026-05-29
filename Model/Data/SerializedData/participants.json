@@ -1,11 +1,20 @@
 [
   {
-    "Id": "3fcce31c-87e6-4043-a2f1-69614243f1e5",
+    "Id": "6e17796a-1d9f-448e-8a36-ad3356773b9b",
     "Tickets": [],
-    "Balance": 999,
-    "Greed": 30,
+    "Balance": 1300,
+    "Greed": 34,
     "TotalSpent": 0,
     "TotalWon": 0,
-    "FullName": "Fred"
+    "FullName": "Арсений"
+  },
+  {
+    "Id": "fab95ca9-e471-4037-ac3d-400490a96274",
+    "Tickets": [],
+    "Balance": 1450,
+    "Greed": 14,
+    "TotalSpent": 0,
+    "TotalWon": 0,
+    "FullName": "Егор"
   }
 ]
