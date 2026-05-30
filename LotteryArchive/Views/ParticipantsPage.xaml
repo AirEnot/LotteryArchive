@@ -56,7 +56,7 @@
                                            FontSize="18"
                                            FontWeight="SemiBold"
                                            VerticalAlignment="Center"
-                                           TextTrimming="CharacterEllipsis" />
+                                           TextWrapping="Wrap" />
                                 <TextBlock Grid.Column="1"
                                            VerticalAlignment="Center"
                                            Text="{Binding Balance, StringFormat=Баланс: {0}}" />
@@ -100,6 +100,7 @@
                         <TextBlock Text="Баланс" FontWeight="SemiBold" />
                         <TextBox x:Name="BalanceEditBox"
                                  Margin="0,6,0,0"
+                                 MaxLength="6"
                                  PreviewTextInput="NumericBox_OnPreviewTextInput" />
                     </StackPanel>
 

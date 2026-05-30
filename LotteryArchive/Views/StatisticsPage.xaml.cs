@@ -1,42 +1,66 @@
+using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
-using LotteryArchive.ViewModels;
+using LotteryArchive.Display;
+using Model.Core;
 
 namespace LotteryArchive.Views;
 
 public partial class StatisticsPage : Page
 {
-    private List<ParticipantSelectionItem> _items = [];
+    private List<ParticipantChartRow> _rows = new List<ParticipantChartRow>();
 
     public StatisticsPage()
     {
         InitializeComponent();
-        Loaded += OnLoaded;
+        Loaded += StatisticsPage_Loaded;
     }
 
-    private void OnLoaded(object sender, RoutedEventArgs e)
+    private void StatisticsPage_Loaded(object sender, RoutedEventArgs e)
     {
-        _items = App.State.Controller.AllPeople
-            .Select(p => new ParticipantSelectionItem(p))
-            .ToList();
+        _rows = new List<ParticipantChartRow>();
 
-        foreach (var item in _items)
+        foreach (LotteryParticipant person in App.State.Controller.AllPeople)
         {
-            item.PropertyChanged += (_, _) => UpdateChart();
+            _rows.Add(new ParticipantChartRow(person));
         }
 
-        ParticipantsCheckList.ItemsSource = _items;
+        ParticipantsCheckList.ItemsSource = _rows;
+        UpdateChart();
+    }
+
+    private void ParticipantCheckBox_Changed(object sender, RoutedEventArgs e)
+    {
+        CheckBox checkBox = sender as CheckBox;
+        ParticipantChartRow row = checkBox.DataContext as ParticipantChartRow;
+        if (row == null)
+        {
+            return;
+        }
+
+        row.IsSelected = checkBox.IsChecked == true;
         UpdateChart();
     }
 
     private void UpdateChart()
     {
-        StatsChart.SetData(_items);
+        List<ParticipantChartRow> selected = new List<ParticipantChartRow>();
+
+        foreach (ParticipantChartRow row in _rows)
+        {
+            if (row.IsSelected)
+            {
+                selected.Add(row);
+            }
+        }
+
+        StatsChart.SetData(selected);
     }
 
     private void BackButton_OnClick(object sender, RoutedEventArgs e)
     {
-        if (Application.Current.MainWindow is MainWindow window)
+        MainWindow window = Application.Current.MainWindow as MainWindow;
+        if (window != null)
         {
             window.Navigate(new MainPage());
         }

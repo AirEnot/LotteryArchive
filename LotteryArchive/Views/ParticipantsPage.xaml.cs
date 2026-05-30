@@ -2,92 +2,89 @@ using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
+using LotteryArchive.Helpers;
 using Model.Core;
 
 namespace LotteryArchive.Views;
 
 public partial class ParticipantsPage : Page
 {
-    private static readonly Regex DigitsRegex = new("^[0-9]+$");
-    private bool _suppressGreedUpdate;
+    private Regex _digitsOnly = new Regex("^[0-9]+$");
+    private bool _blockSliderEvent;
 
     public ParticipantsPage()
     {
         InitializeComponent();
-        Loaded += OnLoaded;
+        Loaded += ParticipantsPage_Loaded;
     }
 
-    private void OnLoaded(object sender, RoutedEventArgs e)
+    private void ParticipantsPage_Loaded(object sender, RoutedEventArgs e)
     {
-        RefreshParticipants();
+        ShowParticipants();
     }
 
-    private void RefreshParticipants()
+    private void ShowParticipants()
     {
-        var participants = App.State.Controller.AllPeople;
-        var selectedId = (ParticipantsList.SelectedItem as LotteryParticipant)?.Id;
-
         ParticipantsList.ItemsSource = null;
-        ParticipantsList.ItemsSource = participants;
+        ParticipantsList.ItemsSource = App.State.Controller.AllPeople;
 
-        if (!string.IsNullOrEmpty(selectedId))
+        if (App.State.Controller.AllPeople.Count == 0)
         {
-            ParticipantsList.SelectedItem = participants.FirstOrDefault(p => p.Id == selectedId);
-        }
-
-        var hasParticipants = participants.Count > 0;
-        ParticipantsList.Visibility = hasParticipants ? Visibility.Visible : Visibility.Collapsed;
-        EmptyParticipantsText.Visibility = hasParticipants ? Visibility.Collapsed : Visibility.Visible;
-        if (!hasParticipants)
-        {
+            ParticipantsList.Visibility = Visibility.Collapsed;
+            EmptyParticipantsText.Visibility = Visibility.Visible;
             EditPanel.Visibility = Visibility.Collapsed;
+        }
+        else
+        {
+            ParticipantsList.Visibility = Visibility.Visible;
+            EmptyParticipantsText.Visibility = Visibility.Collapsed;
         }
     }
 
     private void ParticipantsList_OnSelectionChanged(object sender, SelectionChangedEventArgs e)
     {
-        if (ParticipantsList.SelectedItem is not LotteryParticipant participant)
+        LotteryParticipant participant = ParticipantsList.SelectedItem as LotteryParticipant;
+        if (participant == null)
         {
             EditPanel.Visibility = Visibility.Collapsed;
             return;
         }
 
         EditPanel.Visibility = Visibility.Visible;
-        SelectedParticipantText.Text = $"Редактирование: {participant.FullName}";
+        SelectedParticipantText.Text = "Редактирование: " + participant.FullName;
         BalanceEditBox.Text = participant.Balance.ToString();
 
-        _suppressGreedUpdate = true;
+        _blockSliderEvent = true;
         GreedSlider.Value = participant.Greed;
         GreedValueText.Text = participant.Greed.ToString();
-        _suppressGreedUpdate = false;
+        _blockSliderEvent = false;
     }
 
     private void GreedSlider_OnValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
     {
-        if (_suppressGreedUpdate)
+        if (_blockSliderEvent)
         {
             return;
         }
-
         GreedValueText.Text = ((int)GreedSlider.Value).ToString();
     }
 
     private void DeleteParticipantButton_OnClick(object sender, RoutedEventArgs e)
     {
-        if (ParticipantsList.SelectedItem is not LotteryParticipant participant)
+        LotteryParticipant participant = ParticipantsList.SelectedItem as LotteryParticipant;
+        if (participant == null)
         {
-            MessageBox.Show("Выберите участника для удаления.", "Удаление", MessageBoxButton.OK,
-                MessageBoxImage.Information);
+            MessageBox.Show("Выберите участника для удаления.");
             return;
         }
 
-        var confirm = MessageBox.Show(
-            $"Удалить участника «{participant.FullName}»?",
-            "Удаление участника",
+        MessageBoxResult answer = MessageBox.Show(
+            "Удалить участника «" + participant.FullName + "»?",
+            "Удаление",
             MessageBoxButton.YesNo,
             MessageBoxImage.Question);
 
-        if (confirm != MessageBoxResult.Yes)
+        if (answer != MessageBoxResult.Yes)
         {
             return;
         }
@@ -95,55 +92,78 @@ public partial class ParticipantsPage : Page
         App.State.Controller.RemoveParticipant(participant);
         App.State.SaveCurrentFormat();
         EditPanel.Visibility = Visibility.Collapsed;
-        RefreshParticipants();
+        ShowParticipants();
     }
 
     private void SaveChangesButton_OnClick(object sender, RoutedEventArgs e)
     {
-        if (ParticipantsList.SelectedItem is not LotteryParticipant participant)
+        LotteryParticipant participant = ParticipantsList.SelectedItem as LotteryParticipant;
+        if (participant == null)
         {
-            MessageBox.Show("Выберите участника в списке.", "Редактирование", MessageBoxButton.OK,
-                MessageBoxImage.Information);
+            MessageBox.Show("Выберите участника в списке.");
             return;
         }
 
-        if (!long.TryParse(BalanceEditBox.Text, out var balance) || balance < 0)
+        long balance;
+        if (!long.TryParse(BalanceEditBox.Text, out balance) || balance < 0)
         {
-            MessageBox.Show("Введите корректный неотрицательный баланс.", "Редактирование", MessageBoxButton.OK,
-                MessageBoxImage.Warning);
+            MessageBox.Show("Введите корректный баланс.");
             return;
         }
 
-        var greed = (int)GreedSlider.Value;
-        if (!App.State.TryUpdateParticipant(participant, balance, greed))
+        if (InputLimits.IsNumberTooBig(balance))
         {
-            MessageBox.Show("Не удалось сохранить изменения.", "Редактирование", MessageBoxButton.OK,
-                MessageBoxImage.Error);
+            MessageBox.Show(InputLimits.TooBigMessage("Баланс"));
             return;
         }
 
+        int greed = (int)GreedSlider.Value;
+        if (greed < InputLimits.MinGreed || greed > InputLimits.MaxGreed)
+        {
+            MessageBox.Show("Жадность должна быть от 0 до 100.");
+            return;
+        }
+
+        int index = App.State.Controller.AllPeople.FindIndex(p => p.Id == participant.Id);
+        if (index < 0)
+        {
+            MessageBox.Show("Участник не найден.");
+            return;
+        }
+
+        LotteryParticipant updated = new LotteryParticipant(
+            participant.Id,
+            participant.FullName,
+            balance,
+            greed,
+            participant.TotalSpent,
+            participant.TotalWon,
+            participant.Tickets);
+
+        App.State.Controller.AllPeople[index] = updated;
         App.State.SaveCurrentFormat();
-        RefreshParticipants();
+        ShowParticipants();
     }
 
     private void NumericBox_OnPreviewTextInput(object sender, TextCompositionEventArgs e)
     {
-        e.Handled = !DigitsRegex.IsMatch(e.Text);
+        e.Handled = !_digitsOnly.IsMatch(e.Text);
     }
 
     private void BackButton_OnClick(object sender, RoutedEventArgs e)
     {
-        Navigate(new MainPage());
+        GoToPage(new MainPage());
     }
 
     private void AddParticipantButton_OnClick(object sender, RoutedEventArgs e)
     {
-        Navigate(new CreateParticipantPage());
+        GoToPage(new CreateParticipantPage());
     }
 
-    private static void Navigate(Page page)
+    private void GoToPage(Page page)
     {
-        if (Application.Current.MainWindow is MainWindow window)
+        MainWindow window = Application.Current.MainWindow as MainWindow;
+        if (window != null)
         {
             window.Navigate(page);
         }

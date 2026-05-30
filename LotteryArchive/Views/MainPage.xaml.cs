@@ -1,86 +1,120 @@
+using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
+using LotteryArchive.Display;
 using LotteryArchive.Services;
-using LotteryArchive.ViewModels;
 using Model.Core;
 
 namespace LotteryArchive.Views;
 
 public partial class MainPage : Page
 {
-    private bool _suppressFormatChange;
+    private bool _blockFormatChange;
 
     public MainPage()
     {
         InitializeComponent();
-        Loaded += OnLoaded;
+        Loaded += MainPage_Loaded;
     }
 
-    private void OnLoaded(object sender, RoutedEventArgs e)
+    private void MainPage_Loaded(object sender, RoutedEventArgs e)
     {
-        _suppressFormatChange = true;
-        FormatCombo.SelectedIndex = App.State.CurrentFormat == StorageFormat.Json ? 0 : 1;
-        _suppressFormatChange = false;
-        RefreshLotteries();
+        _blockFormatChange = true;
+        if (App.State.CurrentFormat == StorageFormat.Json)
+        {
+            FormatCombo.SelectedIndex = 0;
+        }
+        else
+        {
+            FormatCombo.SelectedIndex = 1;
+        }
+        _blockFormatChange = false;
+
+        ShowLotteries();
     }
 
-    private void RefreshLotteries()
+    private void ShowLotteries()
     {
-        var items = App.State.Controller.AllLotteries
-            .OrderBy(l => App.State.IsLotteryDrawn(l))
-            .ThenBy(l => l.Name)
-            .Select(l => new LotteryListItem(l, App.State.IsLotteryDrawn(l)))
-            .ToList();
+        List<LotteryRow> rows = new List<LotteryRow>();
 
-        LotteriesList.ItemsSource = items;
+        foreach (Lottery lottery in App.State.Controller.AllLotteries)
+        {
+            rows.Add(new LotteryRow(lottery));
+        }
 
-        var hasLotteries = items.Count > 0;
-        LotteriesList.Visibility = hasLotteries ? Visibility.Visible : Visibility.Collapsed;
-        EmptyLotteriesText.Visibility = hasLotteries ? Visibility.Collapsed : Visibility.Visible;
+        rows.Sort(delegate (LotteryRow a, LotteryRow b)
+        {
+            if (a.IsDrawn != b.IsDrawn)
+            {
+                if (a.IsDrawn)
+                {
+                    return 1;
+                }
+                return -1;
+            }
+            return string.Compare(a.Name, b.Name);
+        });
+
+        LotteriesList.ItemsSource = rows;
+
+        if (rows.Count == 0)
+        {
+            LotteriesList.Visibility = Visibility.Collapsed;
+            EmptyLotteriesText.Visibility = Visibility.Visible;
+        }
+        else
+        {
+            LotteriesList.Visibility = Visibility.Visible;
+            EmptyLotteriesText.Visibility = Visibility.Collapsed;
+        }
     }
 
     private void FormatCombo_OnSelectionChanged(object sender, SelectionChangedEventArgs e)
     {
-        if (_suppressFormatChange || FormatCombo.SelectedIndex < 0)
+        if (_blockFormatChange)
         {
             return;
         }
 
-        var newFormat = FormatCombo.SelectedIndex == 0 ? StorageFormat.Json : StorageFormat.Xml;
-        App.State.SwitchFormat(newFormat);
+        StorageFormat newFormat = StorageFormat.Json;
+        if (FormatCombo.SelectedIndex == 1)
+        {
+            newFormat = StorageFormat.Xml;
+        }
 
-        _suppressFormatChange = true;
-        FormatCombo.SelectedIndex = App.State.CurrentFormat == StorageFormat.Json ? 0 : 1;
-        _suppressFormatChange = false;
+        App.State.SwitchFormat(newFormat);
+        ShowLotteries();
     }
 
     private void StatisticsButton_OnClick(object sender, RoutedEventArgs e)
     {
-        Navigate(new StatisticsPage());
+        GoToPage(new StatisticsPage());
     }
 
     private void ParticipantsButton_OnClick(object sender, RoutedEventArgs e)
     {
-        Navigate(new ParticipantsPage());
+        GoToPage(new ParticipantsPage());
     }
 
     private void CreateLotteryButton_OnClick(object sender, RoutedEventArgs e)
     {
-        Navigate(new CreateLotteryPage());
+        GoToPage(new CreateLotteryPage());
     }
 
     private void LotteriesList_OnMouseDoubleClick(object sender, MouseButtonEventArgs e)
     {
-        if (LotteriesList.SelectedItem is LotteryListItem item)
+        LotteryRow row = LotteriesList.SelectedItem as LotteryRow;
+        if (row != null)
         {
-            Navigate(new LotteryDetailsPage(item.Lottery));
+            GoToPage(new LotteryDetailsPage(row.Lottery));
         }
     }
 
-    private static void Navigate(Page page)
+    private void GoToPage(Page page)
     {
-        if (Application.Current.MainWindow is MainWindow window)
+        MainWindow window = Application.Current.MainWindow as MainWindow;
+        if (window != null)
         {
             window.Navigate(page);
         }

@@ -2,14 +2,15 @@ using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
+using LotteryArchive.Helpers;
 using Model.Core;
 
 namespace LotteryArchive.Views;
 
 public partial class CreateLotteryPage : Page
 {
-    private const string PrizePoolTooSmallMessage = "Призовой фонд слишком мал";
-    private static readonly Regex DigitsRegex = new("^[0-9]+$");
+    private const string PrizePoolTooSmall = "Призовой фонд слишком мал";
+    private Regex _digitsOnly = new Regex("^[0-9]+$");
 
     public CreateLotteryPage()
     {
@@ -18,48 +19,41 @@ public partial class CreateLotteryPage : Page
 
     private void CreateButton_OnClick(object sender, RoutedEventArgs e)
     {
-        if (!ValidateForm(out var validationMessage))
+        string message;
+        if (!CheckForm(out message))
         {
-            ShowValidation(validationMessage);
+            ValidationText.Text = message;
+            ValidationText.Visibility = Visibility.Visible;
             return;
         }
 
-        var lottery = new Lottery(
+        Lottery lottery = new Lottery(
             LotteryNameBox.Text.Trim(),
             int.Parse(TicketsCountBox.Text),
             long.Parse(PrizePoolBox.Text));
 
         App.State.Controller.AddLottery(lottery);
         App.State.SaveCurrentFormat();
-        Navigate(new MainPage());
+        GoToPage(new MainPage());
     }
 
     private void BackButton_OnClick(object sender, RoutedEventArgs e)
     {
-        Navigate(new MainPage());
+        GoToPage(new MainPage());
     }
 
     private void NumericBox_OnPreviewTextInput(object sender, TextCompositionEventArgs e)
     {
-        e.Handled = !DigitsRegex.IsMatch(e.Text);
+        e.Handled = !_digitsOnly.IsMatch(e.Text);
     }
 
-    private void LotteryValidation_OnChanged(object sender, TextChangedEventArgs e)
+    private void NumericBox_OnTextChanged(object sender, TextChangedEventArgs e)
     {
-        if (string.IsNullOrWhiteSpace(TicketsCountBox.Text) || string.IsNullOrWhiteSpace(PrizePoolBox.Text))
+        string message;
+        if (!CheckNumbers(out message))
         {
-            ValidationText.Visibility = Visibility.Collapsed;
-            return;
-        }
-
-        if (!int.TryParse(TicketsCountBox.Text, out var tickets) || !long.TryParse(PrizePoolBox.Text, out var prizePool))
-        {
-            return;
-        }
-
-        if (tickets > 2L * prizePool)
-        {
-            ShowValidation(PrizePoolTooSmallMessage);
+            ValidationText.Text = message;
+            ValidationText.Visibility = Visibility.Visible;
         }
         else
         {
@@ -67,45 +61,99 @@ public partial class CreateLotteryPage : Page
         }
     }
 
-    private bool ValidateForm(out string message)
+    private bool CheckForm(out string message)
     {
-        message = string.Empty;
+        message = "";
+
         if (string.IsNullOrWhiteSpace(LotteryNameBox.Text))
         {
             message = "Введите название лотереи.";
             return false;
         }
 
-        if (!int.TryParse(TicketsCountBox.Text, out var tickets) || tickets <= 0)
+        if (!CheckNumbers(out message))
         {
-            message = "Количество билетов должно быть целым числом больше 0.";
             return false;
         }
 
-        if (!long.TryParse(PrizePoolBox.Text, out var prizePool) || prizePool <= 0)
+        int tickets = int.Parse(TicketsCountBox.Text);
+        long prizePool = long.Parse(PrizePoolBox.Text);
+
+        if (tickets <= 0)
         {
-            message = "Призовой фонд должен быть числом больше 0.";
+            message = "Количество билетов должно быть больше 0.";
             return false;
         }
 
-        if (tickets > 2L * prizePool)
+        if (prizePool <= 0)
         {
-            message = PrizePoolTooSmallMessage;
+            message = "Призовой фонд должен быть больше 0.";
+            return false;
+        }
+
+        if (tickets > 2 * prizePool)
+        {
+            message = PrizePoolTooSmall;
             return false;
         }
 
         return true;
     }
 
-    private void ShowValidation(string message)
+    private bool CheckNumbers(out string message)
     {
-        ValidationText.Text = message;
-        ValidationText.Visibility = Visibility.Visible;
+        message = "";
+
+        if (!string.IsNullOrWhiteSpace(TicketsCountBox.Text))
+        {
+            int tickets;
+            if (!int.TryParse(TicketsCountBox.Text, out tickets))
+            {
+                message = "Введите корректное количество билетов.";
+                return false;
+            }
+            if (InputLimits.IsNumberTooBig(tickets))
+            {
+                message = InputLimits.TooBigMessage("Количество билетов");
+                return false;
+            }
+        }
+
+        if (!string.IsNullOrWhiteSpace(PrizePoolBox.Text))
+        {
+            long prizePool;
+            if (!long.TryParse(PrizePoolBox.Text, out prizePool))
+            {
+                message = "Введите корректный призовой фонд.";
+                return false;
+            }
+            if (InputLimits.IsNumberTooBig(prizePool))
+            {
+                message = InputLimits.TooBigMessage("Призовой фонд");
+                return false;
+            }
+        }
+
+        if (string.IsNullOrWhiteSpace(TicketsCountBox.Text) || string.IsNullOrWhiteSpace(PrizePoolBox.Text))
+        {
+            return true;
+        }
+
+        int ticketsCount = int.Parse(TicketsCountBox.Text);
+        long pool = long.Parse(PrizePoolBox.Text);
+        if (ticketsCount > 2 * pool)
+        {
+            message = PrizePoolTooSmall;
+            return false;
+        }
+
+        return true;
     }
 
-    private static void Navigate(Page page)
+    private void GoToPage(Page page)
     {
-        if (Application.Current.MainWindow is MainWindow window)
+        MainWindow window = Application.Current.MainWindow as MainWindow;
+        if (window != null)
         {
             window.Navigate(page);
         }

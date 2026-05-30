@@ -2,13 +2,15 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <Grid>
-        <Canvas x:Name="ChartCanvas" />
+        <ScrollViewer x:Name="ChartScroll" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Disabled">
+            <Canvas x:Name="ChartCanvas" Height="280" />
+        </ScrollViewer>
         <TextBlock x:Name="EmptyText"
                    Visibility="Collapsed"
                    HorizontalAlignment="Center"
                    VerticalAlignment="Center"
                    Foreground="Gray"
                    FontSize="16"
-                   Text="Выберите участников для отображения диаграммы" />
+                   Text="Выберите участников для диаграммы" />
     </Grid>
 </UserControl>

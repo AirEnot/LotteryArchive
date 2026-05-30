@@ -1,9 +1,6 @@
 <Page x:Class="LotteryArchive.Views.MainPage"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-      mc:Ignorable="d"
       Title="MainPage">
     <Grid Margin="20">
         <Grid.RowDefinitions>
@@ -27,19 +24,11 @@
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="Auto" />
                 </Grid.ColumnDefinitions>
-
-                <TextBlock Grid.Column="0"
-                           VerticalAlignment="Center"
-                           FontWeight="SemiBold"
-                           Text="Формат сохранения:" />
-
-                <ComboBox x:Name="FormatCombo"
-                          Grid.Column="2"
-                          SelectionChanged="FormatCombo_OnSelectionChanged">
+                <TextBlock Grid.Column="0" VerticalAlignment="Center" FontWeight="SemiBold" Text="Формат сохранения:" />
+                <ComboBox x:Name="FormatCombo" Grid.Column="2" SelectionChanged="FormatCombo_OnSelectionChanged">
                     <ComboBoxItem Content="JSON" />
                     <ComboBoxItem Content="XML" />
                 </ComboBox>
-
                 <Button Grid.Column="4"
                         Style="{StaticResource SecondaryButtonStyle}"
                         Content="Статистика участников"
@@ -59,7 +48,6 @@
             <ListBox x:Name="LotteriesList"
                      BorderThickness="0"
                      Background="Transparent"
-                     ScrollViewer.HorizontalScrollBarVisibility="Disabled"
                      HorizontalContentAlignment="Stretch"
                      MouseDoubleClick="LotteriesList_OnMouseDoubleClick">
                 <ListBox.ItemContainerStyle>
@@ -73,70 +61,40 @@
                 </ListBox.ItemContainerStyle>
                 <ListBox.ItemTemplate>
                     <DataTemplate>
-                        <Border Opacity="{Binding CardOpacity}"
-                                Style="{StaticResource CardBorderStyle}"
-                                Cursor="Hand">
-                            <Grid>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="2*" />
-                                    <ColumnDefinition Width="*" />
-                                    <ColumnDefinition Width="*" />
-                                    <ColumnDefinition Width="Auto" />
-                                </Grid.ColumnDefinitions>
-
-                                <StackPanel Grid.Column="0" VerticalAlignment="Center">
+                        <Border Opacity="{Binding CardOpacity}" Style="{StaticResource CardBorderStyle}" Cursor="Hand">
+                            <StackPanel>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="Auto" />
+                                    </Grid.ColumnDefinitions>
                                     <TextBlock Text="{Binding Name}"
                                                FontSize="20"
                                                FontWeight="SemiBold"
-                                               TextTrimming="CharacterEllipsis" />
-                                    <TextBlock Margin="0,4,0,0"
-                                               Foreground="Gray"
-                                               FontSize="12"
-                                               Text="Двойной клик — подробности" />
-                                </StackPanel>
-
-                                <StackPanel Grid.Column="1" VerticalAlignment="Center" Margin="12,0">
-                                    <TextBlock Text="{Binding TicketsCount, StringFormat=Билетов: {0}}" FontWeight="SemiBold" />
-                                    <TextBlock Margin="0,4,0,0"
-                                               Text="{Binding TicketsPrice, StringFormat=Цена билета: {0}}" />
-                                </StackPanel>
-
-                                <StackPanel Grid.Column="2" VerticalAlignment="Center">
-                                    <TextBlock Text="{Binding PrizePool, StringFormat=Призовой фонд: {0}}"
-                                               FontWeight="SemiBold"
-                                               FontSize="16"
-                                               Foreground="{StaticResource AccentBrush}" />
-                                </StackPanel>
-
-                                <Border Grid.Column="3"
-                                        Margin="12,0,0,0"
-                                        Padding="10,4"
-                                        CornerRadius="12"
-                                        VerticalAlignment="Center">
-                                    <Border.Style>
-                                        <Style TargetType="Border">
-                                            <Setter Property="Background" Value="#FFE8F5E9" />
-                                            <Style.Triggers>
-                                                <DataTrigger Binding="{Binding IsDrawn}" Value="True">
-                                                    <Setter Property="Background" Value="#FFEEEEEE" />
-                                                </DataTrigger>
-                                            </Style.Triggers>
-                                        </Style>
-                                    </Border.Style>
-                                    <TextBlock Text="{Binding StatusText}" FontWeight="SemiBold" FontSize="12">
-                                        <TextBlock.Style>
-                                            <Style TargetType="TextBlock">
-                                                <Setter Property="Foreground" Value="#FF2E7D32" />
+                                               TextWrapping="Wrap" />
+                                    <Border Grid.Column="1" Margin="8,0,0,0" Padding="10,4" CornerRadius="12" VerticalAlignment="Top">
+                                        <Border.Style>
+                                            <Style TargetType="Border">
+                                                <Setter Property="Background" Value="#FFE8F5E9" />
                                                 <Style.Triggers>
                                                     <DataTrigger Binding="{Binding IsDrawn}" Value="True">
-                                                        <Setter Property="Foreground" Value="#FF757575" />
+                                                        <Setter Property="Background" Value="#FFEEEEEE" />
                                                     </DataTrigger>
                                                 </Style.Triggers>
                                             </Style>
-                                        </TextBlock.Style>
-                                    </TextBlock>
-                                </Border>
-                            </Grid>
+                                        </Border.Style>
+                                        <TextBlock Text="{Binding StatusText}" FontWeight="SemiBold" FontSize="12" />
+                                    </Border>
+                                </Grid>
+                                <TextBlock Margin="0,8,0,0" Text="{Binding TicketsCount, StringFormat=Билетов: {0}}" />
+                                <TextBlock Margin="0,4,0,0" Text="{Binding TicketsPrice, StringFormat=Цена билета: {0}}" />
+                                <TextBlock Margin="0,4,0,0"
+                                           Text="{Binding PrizePoolText}"
+                                           FontWeight="SemiBold"
+                                           FontSize="16"
+                                           Foreground="{StaticResource AccentBrush}"
+                                           TextWrapping="Wrap" />
+                            </StackPanel>
                         </Border>
                     </DataTemplate>
                 </ListBox.ItemTemplate>
@@ -150,14 +108,8 @@
                     <ColumnDefinition Width="12" />
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
-                <Button Grid.Column="0"
-                        Style="{StaticResource SecondaryButtonStyle}"
-                        Content="Посмотреть таблицу участников"
-                        Click="ParticipantsButton_OnClick" />
-                <Button Grid.Column="2"
-                        Style="{StaticResource PrimaryButtonStyle}"
-                        Content="Добавить лотерею"
-                        Click="CreateLotteryButton_OnClick" />
+                <Button Grid.Column="0" Style="{StaticResource SecondaryButtonStyle}" Content="Посмотреть таблицу участников" Click="ParticipantsButton_OnClick" />
+                <Button Grid.Column="2" Style="{StaticResource PrimaryButtonStyle}" Content="Добавить лотерею" Click="CreateLotteryButton_OnClick" />
             </Grid>
         </Border>
     </Grid>

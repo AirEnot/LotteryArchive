@@ -1,9 +1,6 @@
 <Page x:Class="LotteryArchive.Views.LotteryDetailsPage"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-      mc:Ignorable="d"
       Title="LotteryDetailsPage">
     <Grid Margin="20">
         <Grid.RowDefinitions>
@@ -12,71 +9,37 @@
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
 
-        <TextBlock Grid.Row="0"
-                   x:Name="TitleText"
-                   Style="{StaticResource PageTitleStyle}"
-                   Margin="0,0,0,12" />
+        <TextBlock Grid.Row="0" x:Name="TitleText" Style="{StaticResource PageTitleStyle}" TextWrapping="Wrap" Margin="0,0,0,12" />
 
-        <Border Grid.Row="1"
-                Style="{StaticResource CardBorderStyle}"
-                HorizontalAlignment="Stretch"
-                VerticalAlignment="Stretch"
-                Padding="24">
-            <Grid VerticalAlignment="Center">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                </Grid.RowDefinitions>
-
-                <TextBlock x:Name="NameText"
-                           Grid.Row="0"
-                           FontSize="22"
-                           FontWeight="SemiBold" />
-                <TextBlock x:Name="TicketsCountText"
-                           Grid.Row="1"
-                           Margin="0,14,0,0"
-                           FontSize="17" />
-                <TextBlock x:Name="PrizePoolText"
-                           Grid.Row="2"
-                           Margin="0,10,0,0"
-                           FontSize="17" />
-                <TextBlock x:Name="TicketPriceText"
-                           Grid.Row="3"
-                           Margin="0,10,0,0"
-                           FontSize="17" />
-                <TextBlock x:Name="SoldTicketsText"
-                           Grid.Row="4"
-                           Margin="0,10,0,0"
-                           FontSize="17" />
-                <TextBlock x:Name="StatusText"
-                           Grid.Row="5"
-                           Margin="0,18,0,0"
-                           FontSize="16"
-                           FontWeight="SemiBold" />
-            </Grid>
+        <Border Grid.Row="1" Style="{StaticResource CardBorderStyle}" Padding="24">
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <StackPanel>
+                    <TextBlock x:Name="NameText" FontSize="22" FontWeight="SemiBold" TextWrapping="Wrap" />
+                    <TextBlock x:Name="TicketsCountText" Margin="0,14,0,0" FontSize="17" TextWrapping="Wrap" />
+                    <TextBlock x:Name="PrizePoolText" Margin="0,10,0,0" FontSize="17" TextWrapping="Wrap" />
+                    <TextBlock x:Name="TicketPriceText" Margin="0,10,0,0" FontSize="17" TextWrapping="Wrap" />
+                    <TextBlock x:Name="SoldTicketsText" Margin="0,10,0,0" FontSize="17" TextWrapping="Wrap" />
+                    <TextBlock x:Name="StatusText" Margin="0,18,0,0" FontSize="16" FontWeight="SemiBold" TextWrapping="Wrap" />
+                </StackPanel>
+            </ScrollViewer>
         </Border>
 
         <Border Grid.Row="2" Style="{StaticResource BottomBarStyle}" Margin="0,12,0,0">
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="12" />
-                    <ColumnDefinition Width="*" />
-                </Grid.ColumnDefinitions>
-                <Button Grid.Column="0"
+            <StackPanel>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="12" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0" Style="{StaticResource SecondaryButtonStyle}" Content="Назад" Click="BackButton_OnClick" />
+                    <Button x:Name="DrawButton" Grid.Column="2" Style="{StaticResource PrimaryButtonStyle}" Content="Разыграть" Click="DrawButton_OnClick" />
+                </Grid>
+                <Button Margin="0,10,0,0"
                         Style="{StaticResource SecondaryButtonStyle}"
-                        Content="Назад"
-                        Click="BackButton_OnClick" />
-                <Button x:Name="DrawButton"
-                        Grid.Column="2"
-                        Style="{StaticResource PrimaryButtonStyle}"
-                        Content="Разыграть"
-                        Click="DrawButton_OnClick" />
-            </Grid>
+                        Content="Удалить лотерею"
+                        Click="DeleteLotteryButton_OnClick" />
+            </StackPanel>
         </Border>
     </Grid>
 </Page>
