@@ -31,4 +31,40 @@ public class LotteryRow
     public string StatusText { get; }
 
     public double CardOpacity { get; }
+
+    public static bool operator <(LotteryRow left, LotteryRow right)
+    {
+        return Compare(left, right) < 0;
+    }
+
+    public static bool operator >(LotteryRow left, LotteryRow right)
+    {
+        return Compare(left, right) > 0;
+    }
+
+    private static int Compare(LotteryRow left, LotteryRow right)
+    {
+        if (ReferenceEquals(left, right))
+        {
+            return 0;
+        }
+
+        if (left is null)
+        {
+            return -1;
+        }
+
+        if (right is null)
+        {
+            return 1;
+        }
+
+        int statusCompare = left.IsDrawn.CompareTo(right.IsDrawn);
+        if (statusCompare != 0)
+        {
+            return statusCompare;
+        }
+
+        return string.Compare(left.Name, right.Name);
+    }
 }

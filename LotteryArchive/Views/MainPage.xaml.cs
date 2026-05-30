@@ -45,15 +45,17 @@ public partial class MainPage : Page
 
         rows.Sort(delegate (LotteryRow a, LotteryRow b)
         {
-            if (a.IsDrawn != b.IsDrawn)
+            if (a < b)
             {
-                if (a.IsDrawn)
-                {
-                    return 1;
-                }
                 return -1;
             }
-            return string.Compare(a.Name, b.Name);
+
+            if (a > b)
+            {
+                return 1;
+            }
+
+            return 0;
         });
 
         LotteriesList.ItemsSource = rows;
