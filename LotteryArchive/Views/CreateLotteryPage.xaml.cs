@@ -71,6 +71,16 @@ public partial class CreateLotteryPage : Page
             return false;
         }
 
+        string lotteryName = LotteryNameBox.Text.Trim();
+        foreach (Lottery lottery in App.State.Controller.AllLotteries)
+        {
+            if (string.Equals(lottery.Name, lotteryName, System.StringComparison.OrdinalIgnoreCase))
+            {
+                message = "Лотерея с таким названием уже существует.";
+                return false;
+            }
+        }
+
         if (!CheckNumbers(out message))
         {
             return false;
