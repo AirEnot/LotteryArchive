@@ -11,16 +11,16 @@ namespace Model.Core
     {
         public string Id { get; private set; }
 
-        private List<Ticket> _tickets = new();
+        private List<ITicket> _tickets = new();
 
-        public List<Ticket> Tickets => _tickets.ToList();
+        public List<ITicket> Tickets => _tickets.ToList();
 
         public LotteryParticipant(string fullName) : base(fullName)
         {
             Id = Guid.NewGuid().ToString();
         }
         [JsonConstructor]
-        public LotteryParticipant(string id, string fullName, long balance, int greed, long totalSpent, long totalWon, List<Ticket> tickets = null!) 
+        public LotteryParticipant(string id, string fullName, long balance, int greed, long totalSpent, long totalWon, List<ITicket> tickets = null!) 
             : base(fullName)
         {
             Id = id;
@@ -29,7 +29,7 @@ namespace Model.Core
             TotalSpent = totalSpent;
             TotalWon = totalWon;
             
-            _tickets = tickets ?? new List<Ticket>(); 
+            _tickets = tickets ?? new List<ITicket>(); 
         }
 
         public void Print()

@@ -14,15 +14,13 @@ namespace Model.Data
         public long TotalWon { get; set; }
         public List<TicketDTO> Tickets { get; set; }
 
-        public LotteryParticipantDTO() { } // Обязательно для XML
-
-        // Перегоняем бизнес-объект в DTO
+        public LotteryParticipantDTO() { }
         public static LotteryParticipantDTO FromDomain(LotteryParticipant p)
         {
             return new LotteryParticipantDTO
             {
                 Id = p.Id,
-                FullName = p.FullName, // Наследуется от Person
+                FullName = p.FullName,
                 Balance = p.Balance,
                 Greed = p.Greed,
                 TotalSpent = p.TotalSpent,
@@ -31,13 +29,10 @@ namespace Model.Data
             };
         }
 
-        // Перегоняем DTO обратно в бизнес-объект
         public LotteryParticipant ToDomain()
         {
-            // 1. Сначала восстанавливаем все билеты из их DTO-шек
             var restoredTickets = Tickets?.Select(t => t.ToDomain()).ToList();
 
-            // 2. Вызываем наш новый конструктор, отдавая ему все данные разом!
             return new LotteryParticipant(
                 Id, 
                 FullName, 
@@ -45,7 +40,7 @@ namespace Model.Data
                 Greed, 
                 TotalSpent, 
                 TotalWon, 
-                restoredTickets
+                restoredTickets!
             );
         }
     }

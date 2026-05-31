@@ -15,7 +15,7 @@ namespace Model.Data
 
         public TicketDTO() { }
 
-        public static TicketDTO FromDomain(Ticket t)
+        public static TicketDTO FromDomain(ITicket t)
         {
             if (t is WinningTicket wt)
             {
@@ -40,7 +40,7 @@ namespace Model.Data
             };
         }
 
-        public virtual Ticket ToDomain()
+        public virtual ITicket ToDomain()
         {
             return new Ticket(Id, IsSold, LotteryName, Price, ParticipantId);
         }

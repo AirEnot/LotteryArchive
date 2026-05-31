@@ -13,7 +13,7 @@ namespace Model.Core
         public string ParticipantId { get; protected set; }
         public bool IsSold { get ; private set; }
 
-        public Ticket(int id, bool isSold, string lotteryName, string participantId = null)
+        public Ticket(int id, bool isSold, string lotteryName, string participantId = null!)
         {
             Id = id;
             IsSold = isSold;

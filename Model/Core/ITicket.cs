@@ -12,6 +12,8 @@ namespace Model.Core
         int Id { get; }
         string ParticipantId { get;}
         bool IsSold { get; }
+        int Price { get; }
         string Print();
+        void SellToParticipant(LotteryParticipant participant);
     }
 }

@@ -48,12 +48,12 @@ namespace Model.Core
             }
         }
 
-        public void GetTicket(Ticket ticket)
+        public void GetTicket(ITicket ticket)
         {
             _tickets.Add(ticket);
         }
 
-        public void GetPrize(Ticket ticket)
+        public void GetPrize(ITicket ticket)
         {
             if (ticket is WinningTicket winningTicket)
             {
@@ -63,7 +63,7 @@ namespace Model.Core
             }
         }
 
-        public void ReturnMoney(Ticket ticket)
+        public void ReturnMoney(ITicket ticket)
         {
             int ticketPrice = ticket.Price;
             int moneyToReturn = ticketPrice * 90 / 100;

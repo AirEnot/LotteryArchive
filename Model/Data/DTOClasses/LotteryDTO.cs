@@ -29,7 +29,7 @@ namespace Model.Data
         public Lottery ToDomain()
         {
             var restoredTickets = LotteryTickets?.Select(t => t.ToDomain()).ToList();
-            var lottery = new Lottery(Name, TicketsCount, PrizePool, restoredTickets);
+            var lottery = new Lottery(Name, TicketsCount, PrizePool, restoredTickets!);
             if (IsDrawn)
                 lottery.MarkAsDrawn();
             return lottery;

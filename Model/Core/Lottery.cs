@@ -34,9 +34,9 @@ namespace Model.Core
 
         public bool IsDrawn { get; private set; }
 
-        private List<Ticket> _lotteryTickets = new();
+        private List<ITicket> _lotteryTickets = new();
 
-        public List<Ticket> LotteryTickets => _lotteryTickets.ToList();
+        public List<ITicket> LotteryTickets => _lotteryTickets.ToList();
 
         public Lottery(string name, int ticketsCount, long prizePool)
         {
@@ -47,12 +47,12 @@ namespace Model.Core
             CreateTickets();    
         }
         [JsonConstructor]
-        public Lottery(string name, int ticketsCount, long prizePool, List<Ticket> lotteryTickets = null!, bool isDrawn = false)
+        public Lottery(string name, int ticketsCount, long prizePool, List<ITicket> lotteryTickets = null!, bool isDrawn = false)
         {
             Name = name;
             TicketsCount = ticketsCount;
             PrizePool = prizePool;
-            _lotteryTickets = lotteryTickets ?? new List<Ticket>();
+            _lotteryTickets = lotteryTickets ?? new List<ITicket>();
             _winningTicketPrize = PrizePool / WinningTicketsCount;
             IsDrawn = isDrawn;
             
@@ -71,7 +71,7 @@ namespace Model.Core
 
         private void CreateTickets()
         {
-            _lotteryTickets = new List<Ticket>(TicketsCount);
+            _lotteryTickets = new List<ITicket>(TicketsCount);
             _winningTicketPrize = PrizePool / WinningTicketsCount;
             for (int i = 0; i < WinningTicketsCount; i++)
             {
