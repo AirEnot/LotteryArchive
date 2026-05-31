@@ -90,6 +90,7 @@ LotteryArchiveSolution/
         ├── XmlLotterySerializeManager.cs
         └── XmlParticipantSerializeManager.cs
 
+
 1. **`LotteryArchive` (Внешний вид):**
    Основной проект WPF, где лежат все окна (`.xaml`) и графики (`SimpleBarChart.xaml`).
    
