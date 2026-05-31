@@ -35,6 +35,7 @@
 
 Мы разделили проект на две части, чтобы код не превратился в кашу. 
 
+```text
 LotteryArchiveSolution/
 ├── LotteryArchive/                     # Основной WPF-проект (UI)
 │   ├── Controls/
@@ -89,7 +90,6 @@ LotteryArchiveSolution/
         ├── SerializeManager.cs
         ├── XmlLotterySerializeManager.cs
         └── XmlParticipantSerializeManager.cs
-
 
 1. **`LotteryArchive` (Внешний вид):**
    Основной проект WPF, где лежат все окна (`.xaml`) и графики (`SimpleBarChart.xaml`).
