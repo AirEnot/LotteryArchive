@@ -4,18 +4,6 @@ namespace LotteryArchive.Display;
 
 public class LotteryRow
 {
-    public LotteryRow(Lottery lottery)
-    {
-        Lottery = lottery;
-        IsDrawn = lottery.IsDrawn;
-        Name = lottery.Name;
-        TicketsCount = lottery.TicketsCount;
-        TicketsPrice = lottery.TicketsPrice;
-        PrizePoolText = "Призовой фонд: " + lottery.PrizePool;
-        StatusText = IsDrawn ? "Разыграна" : "Активна";
-        CardOpacity = IsDrawn ? 0.75 : 1.0;
-    }
-
     public Lottery Lottery { get; }
 
     public string Name { get; }
@@ -31,6 +19,18 @@ public class LotteryRow
     public string StatusText { get; }
 
     public double CardOpacity { get; }
+
+    public LotteryRow(Lottery lottery)
+    {
+        Lottery = lottery;
+        IsDrawn = lottery.IsDrawn;
+        Name = lottery.Name;
+        TicketsCount = lottery.TicketsCount;
+        TicketsPrice = lottery.TicketsPrice;
+        PrizePoolText = "Призовой фонд: " + lottery.PrizePool;
+        StatusText = IsDrawn ? "Разыграна" : "Активна";
+        CardOpacity = IsDrawn ? 0.75 : 1.0;
+    }
 
     public static bool operator <(LotteryRow left, LotteryRow right)
     {

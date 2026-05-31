@@ -39,14 +39,18 @@ namespace Model.Core
             {
                 participants.Find(x => x.Id == ticket.ParticipantId)?.GetPrize(ticket);
             }
-
-            //MarkAsDrawn();
         }
         public void CancelLottery(List<LotteryParticipant> participants)
         {
             foreach (var ticket in _lotteryTickets)
             {
-                participants.Find(x => x.Id == ticket.ParticipantId)?.ReturnMoney(ticket);
+                int index = participants.FindIndex(x => x.Id == ticket.ParticipantId);
+                if (index != -1)
+                {
+                    var participant = participants[index];
+                    participant.ReturnMoney(ticket);
+                    participants[index] = participant;
+                }
             }
         }
     }

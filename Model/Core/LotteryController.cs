@@ -73,6 +73,7 @@ namespace Model.Core
 
         public void RemoveLottery(Lottery lottery)
         {
+            AllPeople.ForEach(p => p.DeleteLotteryTickets(lottery));
             AllLotteries.Remove(lottery);
         }
 

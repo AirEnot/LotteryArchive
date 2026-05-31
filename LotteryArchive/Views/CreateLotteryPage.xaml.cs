@@ -89,19 +89,7 @@ public partial class CreateLotteryPage : Page
         int tickets = int.Parse(TicketsCountBox.Text);
         long prizePool = long.Parse(PrizePoolBox.Text);
 
-        if (tickets <= 0)
-        {
-            message = "Количество билетов должно быть больше 0.";
-            return false;
-        }
-
-        if (prizePool <= 0)
-        {
-            message = "Призовой фонд должен быть больше 0.";
-            return false;
-        }
-
-        if (tickets > 2 * prizePool)
+        if (tickets > 1.5 * prizePool)
         {
             message = PrizePoolTooSmall;
             return false;
@@ -144,14 +132,21 @@ public partial class CreateLotteryPage : Page
             }
         }
 
-        if (string.IsNullOrWhiteSpace(TicketsCountBox.Text) || string.IsNullOrWhiteSpace(PrizePoolBox.Text))
+        if (string.IsNullOrWhiteSpace(TicketsCountBox.Text))
         {
-            return true;
+            message = "Введите количество билетов.";
+            return false;
+        }
+
+        if (string.IsNullOrWhiteSpace(PrizePoolBox.Text))
+        {
+            message = "Введите призовой фонд.";
+            return false;
         }
 
         int ticketsCount = int.Parse(TicketsCountBox.Text);
         long pool = long.Parse(PrizePoolBox.Text);
-        if (ticketsCount > 2 * pool)
+        if (ticketsCount > 1.5 * pool)
         {
             message = PrizePoolTooSmall;
             return false;

@@ -71,5 +71,10 @@ namespace Model.Core
             Balance += moneyToReturn;
             TotalSpent -= moneyToReturn;
         }
+
+        public void DeleteLotteryTickets(Lottery lottery)
+        {
+            _tickets.RemoveAll(t => t.LotteryName == lottery.Name);
+        }
     }
 }
